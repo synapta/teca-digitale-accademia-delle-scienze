@@ -3,6 +3,9 @@ import os
 import xml.etree.ElementTree as ET
 import pandas as pd
 from numpy import nan as Nan
+from internetarchive import upload
+import sys
+import glob
 
 basedir = "/data/davide/accademia/teca/storage/Asto"
 namespace = '{http://www.iccu.sbn.it/metaAG1.pdf}'
@@ -24,29 +27,37 @@ for directory in os.listdir(basedir):
 
             for child in root.find(namespace+'bib'):
                 if child.tag == purl+'identifier':
-                    bookObj['identifier'] = [element.replace(".xml", "")]
+                    bookObj['identifier'] = element.replace(".xml", "")
                 elif child.tag == purl+'title':
-                    bookObj['title'] = [child.text]
+                    bookObj['title'] = child.text
                 elif child.tag == purl+'creator':
-                    bookObj['creator'] = [child.text]
+                    bookObj['creator'] = child.text
                 elif child.tag == purl+'publisher':
-                    bookObj['publisher'] = [child.text]
+                    bookObj['publisher'] = child.text
                 elif child.tag == purl+'description':
-                    bookObj['description'] = [child.text]
+                    bookObj['description'] = child.text
                 elif child.tag == purl+'date':
                     if 'date' not in bookObj.keys():
-                        bookObj['date[0]'] = [child.text]
+                        bookObj['date[0]'] = child.text
                     else:
-                        bookObj['date[1]'] = [child.text]
+                        bookObj['date[1]'] = child.text
                 elif child.tag == purl+'format':
-                    bookObj['format'] = [child.text]
+                    bookObj['format'] = child.text
                 elif child.tag == purl+'language':
-                    bookObj['language'] = [child.text]
+                    bookObj['language'] = child.text
+                bookObj['mediatype'] = 'texts'
+                files = glob.glob(filename.replace(".xml","") + '/Internet/*')
+                print files, bookObj
+                #r = upload(bookObj['identifier'],files=files, metadata=bookObj)
+                #print r[0].status_code
+                sys.exit(0)
+        break
+    break
 
-        bookDf = pd.DataFrame(bookObj)
-        data = data.append(bookDf)
+#        bookDf = pd.DataFrame(bookObj)
+#        data = data.append(bookDf)
 
-data.to_csv('book.csv',encoding='utf8')
+#data.to_csv('book.csv',encoding='utf8', index=False)
 
 
 
