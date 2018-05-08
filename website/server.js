@@ -1,13 +1,12 @@
 var express  = require('express');
 var app      = express();
-var port     = process.env.PORT || 5432;
+var port     = process.env.PORT || 4444;
 var morgan   = require('morgan');
 
 app.use(morgan('common'));
 
 app.use(express.static('public'));
 require('./routes.js')(app);
-require('./routesNegotiation.js')(app);
 
 //The 404 Route (ALWAYS Keep this as the last route)
 app.use(function(req, res) {

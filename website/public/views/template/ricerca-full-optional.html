@@ -1,0 +1,63 @@
+<div id="resultTemplate">
+  <div class="row" style="margin:0">
+    <div class="col s12 m8" style="padding:0 40px 0 0">
+      <div class="row" style="margin-bottom:0">
+        <div class="col s12 m12">
+          <div id="results-number" style="float: left"></div>
+          <div class="pagination-buttons" style="float: right;"></div>
+        </div>
+      </div>
+      <div class="row" style="margin:0">
+        <div id="active-filters" style="float:left"></div>
+      </div>
+      <br>
+
+      {{#instances}}
+      <a href="https://archive.org/stream/{{identifier}}" title="{{label}}" class="nodeca">
+        <div class="card blue-grey darken-1 opera-card">
+          <div class="card-content white-text">
+            <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span>
+            {{author}}
+            <p style=" font-size:14px"> {{date}}</p>
+            <p style=" font-size:14px"> {{identifier}}</p>
+          </div>
+        </div>
+      </a>
+      {{/instances}}
+      <br>
+      <div class="pagination-buttons" style="float: right;"></div>
+    </div>
+    <div id="facets" class="col s12 m4" style="padding-right:0">
+
+      <div class="row" style="margin:0">
+        <h4 style="font-weight: 400;">Autore</h4>
+        <hr class="facet-hr"/>
+        <ul>
+        {{#facetsAuth}}
+          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;author_ss={{id}}">{{title}}</a> <small>({{count}})</small></li>
+        {{/facetsAuth}}
+        </ul>
+      </div>
+
+      <div class="row" style="margin:0">
+        <h4 style="font-weight: 400;">Data</h4>
+        <hr class="facet-hr"/>
+        <ul>
+        {{#facetsData}}
+          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;date_s={{title}}">{{title}}</a> <small>({{count}})</small></li>
+        {{/facetsData}}
+        </ul>
+      </div>
+
+      <div class="row" style="margin:0">
+        <h4 style="font-weight: 400;">Lingua</h4>
+        <hr class="facet-hr"/>
+        <ul>
+        {{#facetsLingua}}
+          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;language_s={{title}}">{{title}}</a> <small>({{count}})</small></li>
+        {{/facetsLingua}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

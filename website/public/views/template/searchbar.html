@@ -1,0 +1,135 @@
+<style>
+  #autocomplete{
+      background: white;
+      z-index: 10;
+      border: 1px solid #9e9e9e;
+      font-size: 1em;
+      color: black;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      position: absolute;
+      width: 100%;
+  }
+  #autocomplete p {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-left: 5rem;
+      padding-right: 4rem;
+      margin: 0;
+  }
+  #autocomplete p:hover {
+      background-color: #e6e6e6;
+      cursor: pointer;
+  }
+</style>
+
+<div style="margin-bottom:20px;" class="container">
+  <section id="search-container" class="row-fluid">
+    <form id="main-search" role="search" autocomplete="off">
+      <div class="input-field">
+        <input id="search" type="search">
+        <label class="label-icon" for="search"><i class="material-icons" style="font-size: 34px">search</i></label>
+        <i id="clearsearch" class="material-icons" style="font-size: 3rem; top: 1rem;">close</i>
+        <div id="autocomplete" type="text" disabled="disabled" style="display:none"/>
+      </div>
+    </form>
+  </section>
+</div>
+
+<script>
+  var getUrlParameter = function getUrlParameter (sParam) {
+      var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+          sURLVariables = sPageURL.split('&'),
+          sParameterName,
+          i;
+
+      for (i = 0; i < sURLVariables.length; i++) {
+          sParameterName = sURLVariables[i].split('=');
+
+          if (sParameterName[0] === sParam) {
+              return sParameterName[1] === undefined ? true : sParameterName[1];
+          }
+      }
+  };
+
+  var SEARCH_TYPE = $("#searchtype").text() || "search";
+
+  var PLACEHOLDER_TEXT = $("#placeholdertext").text() || "Cerca un'opera, un autore, una biblioteca...";
+  $('#search').attr("placeholder", PLACEHOLDER_TEXT);
+
+  function boldString(str, find){
+      var re = new RegExp(find, 'i');
+      var match = str.match(re);
+      return str.replace(re, '<b>'+match[0]+'</b>');
+  }
+
+  //Clear search text
+  $('#clearsearch').on("click", function () {
+      $('#search').val("");
+  })
+
+  //Remove suggestion when not focused
+  $('#search').focusout(function() {
+      window.setTimeout(function() { $('#autocomplete').hide(); }, 100);
+  });
+
+  //Update suggestion each char typed
+  /*
+  $('#search').keyup(function(){
+      var searchField = $('#search').val();
+      if (searchField.length > 2) {
+          $.getJSON('/' + SEARCH_TYPE + '?q=' + searchField + BIBLIO_NAME, function(data) {
+              var suggest = "";
+              for (d in data) {
+                  suggest += "<p class='suggestion'>" + boldString(data[d].label, searchField) + " <small style='color:#777'>&lt;" + data[d].uri + "&gt;</small></p>"
+              }
+              if (data.length === 0) {
+                  $('#autocomplete').hide();
+              } else {
+                  $('#autocomplete').show();
+                  $('#autocomplete').html(suggest)
+              }
+          })
+      } else {
+          $('#autocomplete').hide();
+      }
+  });
+
+
+  //If you click on suggestion
+
+  $('#autocomplete').on("click",".suggestion", function () {
+      var suggestion = $(this)[0].textContent;
+      var myRegexp = /<http:\/\/dati\.cobis\.to\.it(.*)>/g;
+      var match = myRegexp.exec(suggestion);
+
+      document.location.href = match[1];
+  })
+  */
+
+  String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.split(search).join(replacement);
+  };
+
+  //Go to the organic when ENTER is pressed with no autocompletion
+  $('#search').keypress(function(e) {
+      if(e.which == 13) {
+          var searchField = $('#search').val().replaceAll(" ", " AND ") + " &start=1";
+          if (SEARCH_TYPE === "searchAgent") {
+              document.location.href = "/?q=" + searchField + "&type=searchAgent";
+          } else {
+              var params = "";
+
+              var facets = ['author_ss', 'date_s', 'biblio_ss', 'language_s']
+              for  (var i = 0; i< facets.length; i++ ) {
+                   params +=  ( getUrlParameter(facets[i]) !== undefined )  ? "&" + facets[i] + "=" + getUrlParameter(facets[i]) : "";
+              }
+
+              document.location.href = "/?q=" + searchField + params;
+          }
+
+          return false; //This is for not refresh page
+      }
+  });
+</script>
