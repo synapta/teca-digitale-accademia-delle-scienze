@@ -18,7 +18,7 @@ module.exports = function(app) {
     response.send(utils.searchItem(request))
   });
 
-  app.get('/top', function(request, response) {
-    response.send(utils.topItem(request))
-  });
+  app.get('/book', function(req, res) {
+      res.redirect("https://archive.org/stream/" + query.id);
+
 }
