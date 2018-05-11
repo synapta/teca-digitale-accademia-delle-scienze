@@ -1,4 +1,3 @@
-var queries = require('./queries.js');
 var utils = require('./utils.js');
 var config = require('./config.js');
 
@@ -20,5 +19,5 @@ module.exports = function(app) {
 
   app.get('/book', function(req, res) {
       res.redirect("https://archive.org/stream/" + query.id);
-
+  });
 }

@@ -1,3 +1,4 @@
+
 var fs = require('fs');
 var data = JSON.parse(fs.readFileSync('./public/data/book.json', 'utf8'))
 console.log(data)
@@ -26,7 +27,7 @@ var itemsjs = require('itemsjs')(data , {
       size: 10
     }
   },
-  searchableFields: ['title', 'description', 'date', 'creator']
+  searchableFields: ['title', 'description', 'date', 'creator', 'identifier']
 });
 
 exports.searchItem = function(request) {
