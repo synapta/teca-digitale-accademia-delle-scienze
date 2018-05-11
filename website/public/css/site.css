@@ -4452,10 +4452,9 @@ blockquote {
       color: #00696b; }
 
 #search {
-  width: 984px;
   height: 48px;
   margin: 0px auto;
-  text-align: center;
+  text-align: left;
   background-color: rgba(0, 0, 0, 0.1); }
   #search.mobile {
     display: none; }
@@ -4550,7 +4549,7 @@ blockquote {
     font-family: "Georgia Pro";
     font-size: 22px;
     line-height: 30px;
-    padding: 27px 0;
+    padding-top: 1em;
     color: #c0903d;
     font-weight: 300; }
   #column-left ul.menu {
@@ -5733,7 +5732,7 @@ a.google-calendar, button.google-calendar {
     font-size: 15px;
     line-height: 36px;
     background-color: transparent;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20id%3D%22Livello_1%22%20data-name%3D%22Livello%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%209.14%205.14%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill%3A%20none%3B%0A%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20.cls-2%20%7B%0A%20%20%20%20%20%20%20%20clip-path%3A%20url(%23clip-path)%3B%0A%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20.cls-3%20%7B%0A%20%20%20%20%20%20%20%20fill%3A%20%231d1d1b%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%20%20%3CclipPath%20id%3D%22clip-path%22%20transform%3D%22translate(0%200)%22%3E%0A%20%20%20%20%20%20%3Crect%20class%3D%22cls-1%22%20width%3D%229.14%22%20height%3D%225.14%22%2F%3E%0A%20%20%20%20%3C%2FclipPath%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Ctitle%3Eicon-select-caret-down%3C%2Ftitle%3E%0A%20%20%3Cg%20class%3D%22cls-2%22%3E%0A%20%20%20%20%3Cpath%20class%3D%22cls-3%22%20d%3D%22M8.57%2C0h-8a.55.55%2C0%2C0%2C0-.4.17A.55.55%2C0%2C0%2C0%2C0%2C.57.55.55%2C0%2C0%2C0%2C.17%2C1l4%2C4A.56.56%2C0%2C0%2C0%2C5%2C5L9%2C1a.55.55%2C0%2C0%2C0%2C.17-.4A.55.55%2C0%2C0%2C0%2C9%2C.17.55.55%2C0%2C0%2C0%2C8.57%2C0%22%20transform%3D%22translate(0%200)%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20id%3D%22Livello_1%22%20data-name%3D%22Livello%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%209.14%205.14%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill%3A%20none%3B%0A%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20.cls-2%20%7B%0A%20%20%20%20%20%20%20%20clip-path%3A%20url(%23clip-path)%3B%0A%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20.cls-3%20%7B%0A%20%20%20%20%20%20%20%20fill%3A%20%231d1d1b%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%20%20%3CclipPath%20id%3D%22clip-path%22%20transform%3D%22translate(0%200)%22%3E%0A%20%20%20%20%20%20%3Crect%20class%3D%22cls-1%22%20width%3D%229.14%22%20height%3D%225.14%22%2F%3E%0A%20%20%20%20%3C%2FclipPath%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Ctitle%3Eicon-select-caret-down%3C%2Ftitle%3E%0A%20%20%3Cg%20class%3D%22cls-2%22%3E%0A%20%20%20%20%3Cpath%20class%3D%22cls-3%22%20d%3D%22M8.57%2C0h-8a.55.55%2C0%2C0%2C0-.4.17A.55.55%2C0%2C0%2C0%2C0%2C.57.55.55%2C0%2C0%2C0%2C.17%2C1l4%2C4A.56.56%2C0%2C0%2C0%2C5%2C5L9%2C1a.55.55%2C0%2C0%2C0%2C.17-.4A.55.55%2C0%2C0%2C0%2C9%2C.17.55.55%2C0%2C0%2C0%2C8.57%2C0%22%20transform%3D%22translate(0%200)%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: 130px 16px;
@@ -6678,3 +6677,31 @@ a.google-calendar, button.google-calendar {
     text-align: center; }
   .hide-mobile {
     display: none; } }
+
+.card {
+  margin-left: 0;
+  background-color: #00696b;
+}
+
+#search {
+  font-size: 16px;
+}
+#result {
+  margin: 20px;
+}
+
+.facet-list {
+  padding-left: 1em !important;
+}
+
+footer {
+  clear: both;
+}
+
+#clearsearch.material-icons {
+  top: 0 !important;
+}
+
+::placeholder {
+  color: #9e9e9e;
+}

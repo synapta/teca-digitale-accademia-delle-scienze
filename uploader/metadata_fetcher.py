@@ -86,7 +86,7 @@ for directory in os.listdir(basedir):
 
             code = r[0].status_code
 
-            if code != 200:
+            if code != 200 or :
                 print "ERROR uploading with code: " + str(code)
                 sys.exit(code)
 

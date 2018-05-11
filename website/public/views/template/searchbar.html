@@ -115,13 +115,13 @@
   //Go to the organic when ENTER is pressed with no autocompletion
   $('#search').keypress(function(e) {
       if(e.which == 13) {
-          var searchField = $('#search').val().replaceAll(" ", " AND ") + " &start=1";
+          var searchField = $('#search').val();
           if (SEARCH_TYPE === "searchAgent") {
               document.location.href = "/?q=" + searchField + "&type=searchAgent";
           } else {
               var params = "";
 
-              var facets = ['author_ss', 'date_s', 'biblio_ss', 'language_s']
+              var facets = ['author', 'date', 'biblio', 'language']
               for  (var i = 0; i< facets.length; i++ ) {
                    params +=  ( getUrlParameter(facets[i]) !== undefined )  ? "&" + facets[i] + "=" + getUrlParameter(facets[i]) : "";
               }

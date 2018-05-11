@@ -1,8 +1,7 @@
-
 var fs = require('fs');
 var data = JSON.parse(fs.readFileSync('./public/data/book.json', 'utf8'))
 console.log(data)
-var itemsjs = require('itemsjs')(data , {
+var itemsjs = require('itemsjs')(data, {
   sortings: {
     name_asc: {
       field: 'title',
@@ -31,12 +30,22 @@ var itemsjs = require('itemsjs')(data , {
 });
 
 exports.searchItem = function(request) {
-  console.log(request.query.q)
+  console.log(request.query)
+  var filters = {};
+
+  ['creator', 'date', 'publisher', 'language' ].forEach(function(v) {
+    filters[v] = request.query[v];
+  })
+
+  console.log(filters)
+
   return itemsjs.search({
-    per_page: 20,
+    per_page: 10,
+    page: request.query.s,
     sort: 'name_asc',
     // full text search
     query: request.query.q,
+    filters: filters
   })
 }
 

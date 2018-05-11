@@ -1,40 +1,40 @@
-<div id="resultTemplate">
-  <div class="row" style="margin:0">
-    <div id="facets" class="col s12 m3" style="padding-right:0">
+<div id="wok-main-panel">
+  <div id="wok-main-panel-content" class="clearfix">
+    <div id="column-left" class="column">
 
-      <div class="row" style="margin:0">
-        <h4 style="font-weight: 400;">Autore</h4>
-        <hr class="facet-hr"/>
-        <ul>
-        {{#facetsAuth}}
-          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;author_ss={{id}}">{{title}}</a> <small>({{count}})</small></li>
-        {{/facetsAuth}}
+      <div class="row">
+        <h2 style="font-weight: 400;" class="section-header">Autore</h2>
+        <hr class="facet-hr" />
+        <ul class="facet-list">
+          {{#facetsAuth}}
+          <li><a href="/?q={{currentFacetQuery}}&amp;creator={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          {{/facetsAuth}}
         </ul>
       </div>
 
-      <div class="row" style="margin:0">
-        <h4 style="font-weight: 400;">Data</h4>
-        <hr class="facet-hr"/>
-        <ul>
-        {{#facetsData}}
-          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;date_s={{title}}">{{title}}</a> <small>({{count}})</small></li>
-        {{/facetsData}}
+      <div class="row" >
+        <h2 style="font-weight: 400;" class="section-header">Data</h2>
+        <hr class="facet-hr" />
+        <ul class="facet-list">
+          {{#facetsData}}
+          <li><a href="/?q={{currentFacetQuery}}&amp;date={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          {{/facetsData}}
         </ul>
       </div>
 
-      <div class="row" style="margin:0">
-        <h4 style="font-weight: 400;">Lingua</h4>
-        <hr class="facet-hr"/>
-        <ul>
-        {{#facetsLingua}}
-          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;language_s={{title}}">{{title}}</a> <small>({{count}})</small></li>
-        {{/facetsLingua}}
+      <div class="row" >
+        <h2 style="font-weight: 400;" class="section-header">Lingua</h2>
+        <hr class="facet-hr" />
+        <ul class="facet-list">
+          {{#facetsLingua}}
+          <li><a href="/?q={{currentFacetQuery}}&amp;language={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          {{/facetsLingua}}
         </ul>
       </div>
     </div>
-    <div class="col s12 m7" style="padding:0 40px 0 0; border-left: 1px black solid">
+    <div id="column-right" class="column">
       <div class="row" style="margin-bottom:0">
-        <div class="col s12 m12">
+        <div class="column s12 m12">
           <div id="results-number" style="float: left"></div>
           <div class="pagination-buttons" style="float: right;"></div>
         </div>
@@ -42,16 +42,13 @@
       <div class="row" style="margin:0">
         <div id="active-filters" style="float:left"></div>
       </div>
-      <br>
-
-      {{#instances}}
-      <a href="https://archive.org/stream/{{identifier}}" title="{{label}}" class="nodeca">
+      <br> {{#instances}}
+      <a href="/book/{{identifier}}" title="{{label}}" class="nodeca">
         <div class="card opera-card">
           <div class="card-content white-text">
-            <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span>
-            {{author}}
+            <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span> {{author}}
             <p style=" font-size:14px"> {{date}}</p>
-            <p style=" font-size:14px"> {{identifier}}</p>
+            <p style=" font-size:10px"> {{identifier}}</p>
           </div>
         </div>
       </a>
