@@ -24,11 +24,11 @@ var params = decodeURIComponent(window.location.search).split('&');
 var query = getUrlParameter("q");
 
 var buttonFilter = function(url, title) {
-  return '<a class="rect-btn nodeca rdf" style="cursor:pointer; margin-right:10px; font-size:12px; height:30px; line-height:30px;" href="' + url + '">' + title + ' ✖</a>';
+  return '<a class="rect-btn nodeca rdf" style="cursor:pointer; margin-right:10px; font-size:16px; height:30px; line-height:30px; border-bottom:solid 1px;" href="' + url + '">' + title + ' ✖</a>';
 }
 
 console.log(params)
-for (var p = 2; p < params.length; p++) {
+for (var p = 1; p < params.length; p++) {
   query += "&" + params[p];
 }
 
@@ -91,7 +91,7 @@ $.getJSON("/search?q=" + query, function(resData) {
     $("#result").html(output);
     $('#search').val(getUrlParameter("q"))
 
-    for (var p = 2; p < params.length; p++) {
+    for (var p = 1; p < params.length; p++) {
       $("#active-filters").append(buttonFilter("/?q=" + obj.currentQuery.replace("&" + params[p], "") + " ", beautyFilter(params[p])))
     }
 

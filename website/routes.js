@@ -7,7 +7,6 @@ module.exports = function(app) {
     res.sendFile(__dirname + '/public/views/index.html');
   });
 
-
   app.get('/search', function(request, response) {
     response.send(utils.searchItem(request))
   });
