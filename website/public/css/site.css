@@ -61,7 +61,7 @@ li {
   font: inherit;
   margin: 0;
   border: none;
-  padding: 0; }
+  padding-bottom: 0.2em; }
 
 input, textarea, button {
   margin: 0;

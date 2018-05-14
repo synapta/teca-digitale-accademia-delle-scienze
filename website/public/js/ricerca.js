@@ -64,7 +64,8 @@ $.getJSON("/search?q=" + query, function(resData) {
   }
   obj.facetsData = [];
   for (var i = 0; i < obj.facetsDataArray.length; i++) {
-    if (obj.facetsDataArray[i].key !== '9999' && obj.facetsDataArray[i].key !== "") {
+    if (obj.facetsDataArray[i].key !== '9999' && obj.facetsDataArray[i].key !== "    " ) {
+      console.log(obj.facetsDataArray[i].key)
       var fa = {};
       fa.title = obj.facetsDataArray[i].key;
       fa.count = obj.facetsDataArray[i].doc_count;
