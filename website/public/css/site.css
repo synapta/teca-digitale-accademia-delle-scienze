@@ -4549,7 +4549,6 @@ blockquote {
     font-family: "Georgia Pro";
     font-size: 22px;
     line-height: 30px;
-    padding-top: 1em;
     color: #c0903d;
     font-weight: 300; }
   #column-left ul.menu {
@@ -6704,4 +6703,25 @@ footer {
 
 ::placeholder {
   color: #9e9e9e;
+}
+
+.pagination-buttons {
+  float: right;
+}
+
+#results-number {
+  float: left;
+  padding-top: 0.2em;
+}
+
+.pagination li a {
+    font-size: 15px;
+}
+
+.pagination li.active {
+ background-color:  #00696b;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
 }

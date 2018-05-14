@@ -27,13 +27,15 @@ var buttonFilter = function(url, title) {
   return '<a class="rect-btn nodeca rdf" style="cursor:pointer; margin-right:10px; font-size:16px; height:30px; line-height:30px; border-bottom:solid 1px;" href="' + url + '">' + title + ' ✖</a>';
 }
 
-console.log(params)
 for (var p = 1; p < params.length; p++) {
   query += "&" + params[p];
 }
 
+if (params[0] === "") {
+  document.location.href = "/?q=&start=1"
+}
+
 $.getJSON("/search?q=" + query, function(resData) {
-  console.log(resData);
   var obj = {
     instances: resData.data.items,
     facetsAuthArray: resData.data.aggregations.creator.buckets,
@@ -62,7 +64,7 @@ $.getJSON("/search?q=" + query, function(resData) {
   }
   obj.facetsData = [];
   for (var i = 0; i < obj.facetsDataArray.length; i++) {
-    if (obj.facetsDataArray[i].key !== '9999') {
+    if (obj.facetsDataArray[i].key !== '9999' && obj.facetsDataArray[i].key !== "") {
       var fa = {};
       fa.title = obj.facetsDataArray[i].key;
       fa.count = obj.facetsDataArray[i].doc_count;
@@ -92,49 +94,47 @@ $.getJSON("/search?q=" + query, function(resData) {
     $('#search').val(getUrlParameter("q"))
 
     for (var p = 1; p < params.length; p++) {
-      $("#active-filters").append(buttonFilter("/?q=" + obj.currentQuery.replace("&" + params[p], "") + " ", beautyFilter(params[p])))
+      if (!params[p].includes('start=')) {
+        $("#active-filters").append(buttonFilter("/?q=" + obj.currentQuery.replace("&" + params[p], "") + " ", beautyFilter(params[p])))
+      }
     }
 
-    var num = 10;
+    var num = resData.pagination.total;
     var pages = Math.ceil(parseInt(num) / 10);
-    var currentPage = parseInt(getUrlParameter("start"));
-/*
-    if (currentPage > 1) {
-      $("#results-number").append("Pagina " + currentPage + " di ").append(formatter(num) + " risultati");
-    } else {
-      $("#results-number").append(formatter(num) + " risultati");
-    }
+    var currentPage = parseInt(getUrlParameter("start")) || 1;
 
-    //Draw pagination
-    $('.pagination-buttons').bootpag({
-      total: pages,
-      page: currentPage,
-      maxVisible: 5,
-      leaps: true,
-      firstLastUse: false,
-      wrapClass: 'pagination',
-      activeClass: 'active',
-      disabledClass: 'disabled-pag',
-      nextClass: 'next',
-      prevClass: 'prev',
-      lastClass: 'last',
-      firstClass: 'first'
-    });
-*/
-    //N.B. do NOT use bootpag on event because is bugged with double ajax call!!
-    $('.disabled-pag').hide();
-    $('ul.pagination.bootpag li').click(function(e) {
-      var num = $(this).attr('data-lp');
-      if (e.target.innerText === "»") {
-        num = 1 + currentPage;
+    $('#results-number').append((num || 0 ) + " risultati");
+
+    $('#pagination-demo').twbsPagination({
+      totalPages: pages,
+      visiblePages: 5,
+      startPage: currentPage,
+      initiateStartPageClick: false,
+      first: 'Inizio',
+      prev: '',
+      next: '',
+      last: '',
+      onPageClick: function(event, page) {
+        if (obj.currentQuery.includes('&start=')) {
+          document.location.href = "/?q=" + obj.currentQuery.replace(/&start=[^&]+/, "&start=" + page)
+        } else {
+          document.location.href = "/?q=" + (obj.currentQuery || "") + "&start=" + page;
+        }
       }
-      if (e.target.innerText === "«") {
-        num = -1 + currentPage;
-      }
-
-      document.location.href = "/?q=" + obj.currentQuery.replace(/&start=[^&]+/, "&start=" + num)
-
-      return false;
     });
   });
+});
+
+$(document).on("keypress","#search",function(e){
+  if (e.which == 13) {
+    console.log(searchField)
+    e.preventDefault()
+    var searchField = $('#search').val();
+    var params = "";
+    var facets = ['creator', 'date', 'language']
+    for (var i = 0; i < facets.length; i++) {
+      params += (getUrlParameter(facets[i]) !== undefined) ? "&" + facets[i] + "=" + getUrlParameter(facets[i]) : "";
+      document.location.href = "/?q=" + searchField + params;
+    }
+  }
 });

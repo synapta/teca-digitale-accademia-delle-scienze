@@ -1,6 +1,5 @@
 var fs = require('fs');
 var data = JSON.parse(fs.readFileSync('./public/data/book.json', 'utf8'))
-console.log(data)
 var itemsjs = require('itemsjs')(data, {
   sortings: {
     name_asc: {
@@ -37,11 +36,9 @@ exports.searchItem = function(request) {
     filters[v] = request.query[v];
   })
 
-  console.log(filters)
-
   return itemsjs.search({
     per_page: 10,
-    page: request.query.s,
+    page: request.query.start,
     sort: 'name_asc',
     // full text search
     query: request.query.q,
