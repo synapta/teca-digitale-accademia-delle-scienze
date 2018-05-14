@@ -13,6 +13,8 @@ def bookDL(bookID):
     item.download(bookID+'_scandata.xml', destdir="./scandata_files/")
 
 #prepare files and folders
+if not os.path.exists('./scandata_files/'):
+    os.mkdir('./scandata_files/')
 if not os.path.exists('./patched_files/'):
     os.mkdir('./patched_files/')
 if not os.path.exists('./patched_files/patched_files.txt'):
@@ -74,7 +76,5 @@ for dir in os.listdir(basedir):
         if code == 200:
             with open("patched_files/uploaded_files.txt", "a") as f:
                 f.write(dir+"\n")
-            input("success")
         else:
             print("Upload failed with code", code)
-
