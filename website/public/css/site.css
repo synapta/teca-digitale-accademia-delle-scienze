@@ -6725,3 +6725,10 @@ footer {
 .pagination a:hover:not(.active) {
   background-color: #ddd;
 }
+
+.archive-thumb {
+  float: right;
+  position: relative;
+  z-index: 2;
+  margin:0 5px 24px 0 !important;
+}
