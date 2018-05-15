@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 
+import requests 
 import pandas as pd
 import os
 import xml.etree.ElementTree as ET
 import pandas as pd
+import time
 from numpy import nan as Nan
 from internetarchive import upload
 import sys
@@ -21,13 +23,11 @@ namespace = '{http://www.iccu.sbn.it/metaAG1.pdf}'
 purl = '{http://purl.org/dc/elements/1.1/}'
 
 data = []
-#columns=['date', 'date0', 'coverage', 'creator', 'coverage', 'credits', 'description', 'language', 'licenseurl', 'mediatype'])
-
-
 for directory in os.listdir(basedir):
     print directory
     for element in os.listdir(basedir + '/' + directory):
         if ".xml" == element[-4:] and element.replace(".xml", "") not in done:
+            time.sleep(1)
             #and 'TO01157391_TO0324_62137_000000' in element:
             #print 'uploading'
 
@@ -82,15 +82,15 @@ for directory in os.listdir(basedir):
 
             print "Uploading"
             #print bookObj
-            r = upload(bookObj['identifier'],files=identifier + '_images.zip', metadata=bookObj)
-
-            code = r[0].status_code
-
-            if code != 200:
-                print "ERROR uploading with code: " + str(code)
-                sys.exit(code)
-
-            print "Done"
+           
+            code = -1 
+            try:
+                r = upload(bookObj['identifier'],files=identifier + '_images.zip', metadata=bookObj)
+                code = r[0].status_code
+            except:
+                print "Failed upload"
+            
+            print "Done with code " + str(code)
             bookObj['resCode'] = code
 
             #shutil.copytree(filename.replace(".xml","") + '/Internet/', filename.replace(".xml","") + /bookObj['identifier'])
@@ -101,29 +101,8 @@ for directory in os.listdir(basedir):
             bookdf = bookdf.append(thisbookdf, ignore_index=True)
             bookdf.to_csv('book.csv', index=False, encoding='utf-8')
 
+
 """
-{http://purl.org/dc/elements/1.1/}publisher
-{http://purl.org/dc/elements/1.1/}description
-{http://purl.org/dc/elements/1.1/}date
-{http://purl.org/dc/elements/1.1/}format
-{http://purl.org/dc/elements/1.1/}language
-{http://www.iccu.sbn.it/metaAG1.pdf}holdings
-{http://www.iccu.sbn.it/metaAG1.pdf}piece
-{http://purl.org/dc/elements/1.1/}identifier
-{http://purl.org/dc/elements/1.1/}title
-{http://purl.org/dc/elements/1.1/}creator
-{http://purl.org/dc/elements/1.1/}publisher
-{http://purl.org/dc/elements/1.1/}description
-{http://purl.org/dc/elements/1.1/}date
-{http://purl.org/dc/elements/1.1/}format
-{http://purl.org/dc/elements/1.1/}language
-{http://www.iccu.sbn.it/metaAG1.pdf}holdings
-
-
- * Part 1 | THIS WORLD | 1
- ** Chapter 1 | Of the Nature of Flatland | 3
- ** Chapter 2 | Of the Climate and Houses in Flatland | 5
- * Part 2 | OTHER WORLDS | 42
-
-
+Per rimuovere la linea con il libro da ritentare
+df = df[~df['your column'].isin(['list of strings'])]
 """
