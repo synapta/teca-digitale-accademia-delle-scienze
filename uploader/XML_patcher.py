@@ -12,6 +12,10 @@ import pandas as pd
 def bookDL(bookID):
     item.download(bookID+'_scandata.xml', destdir="./scandata_files/")
 
+@timeout(20)
+def bookUL(fid, file):
+    return upload(fid, files=file)
+
 #prepare files and folders
 if not os.path.exists('./scandata_files/'):
     os.mkdir('./scandata_files/')
@@ -70,7 +74,12 @@ for dir in os.listdir(basedir):
         fname = dir + "_scandata.xml"
         file_path = "patched_files/" + fname
         print("Uploading file for ID:",dir)
-        res = upload(dir, files=file_path)
+        while True:
+            try:
+                res = bookUL(dir, file_path)
+            except Exception as ex:
+                print(ex)
+            break
         code = res[0].status_code
 
         if code == 200:
