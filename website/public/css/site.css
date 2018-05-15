@@ -6733,3 +6733,15 @@ footer {
   margin:0;
   padding-left: 1em;
 }
+
+#clearsearch {
+  color: #9e9e9e;
+}
+
+#clearsearch:hover {
+  color: rgba(0,0,0,0.87);
+}
+
+#search:not(:blank) + #clearsearch {
+  color: rgba(0,0,0,0.87);
+}

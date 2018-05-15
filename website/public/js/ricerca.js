@@ -142,3 +142,7 @@ $(document).on("keypress", "#search", function(e) {
     }
   }
 });
+
+$(document).on("click", "#clearsearch", function(e) {
+    document.location.href = "/?q=&start=1";
+});
