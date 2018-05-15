@@ -1,46 +1,47 @@
 <div id="wok-main-panel">
   <div id="wok-main-panel-content" class="clearfix">
     <div id="column-left" class="column">
-      <a href="/?q=&start=1"> <h1 data-wp-edit="Title" style="text-align: center; margin-top: 1em; font-size: 24px; font-family: Georgia Pro;">Teca Digitale</h1> </a>
+      <a href="/?q=&start=1">
+        <h1 data-wp-edit="Title" style="text-align: left; margin-top: 1em; font-size: 24px; font-family: Georgia Pro;">Teca Digitale</h1> </a>
 
       <div class="row">
         <h2 style="font-weight: 400;" class="section-header">Autore</h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
           {{#facetsAuth}}
-          <li><a href="/?q={{currentFacetQuery}}&amp;creator={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;creator={{title}}">{{title}}</a> <small>({{count}})</small></li>
           {{/facetsAuth}}
         </ul>
       </div>
 
-      <div class="row" >
+      <div class="row">
         <h2 style="font-weight: 400;" class="section-header">Data</h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
           {{#facetsData}}
-          <li><a href="/?q={{currentFacetQuery}}&amp;date={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;date={{title}}">{{title}}</a> <small>({{count}})</small></li>
           {{/facetsData}}
         </ul>
       </div>
 
-      <div class="row" >
+      <div class="row">
         <h2 style="font-weight: 400;" class="section-header">Lingua</h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
           {{#facetsLingua}}
-          <li><a href="/?q={{currentFacetQuery}}&amp;language={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;language={{title}}">{{title}}</a> <small>({{count}})</small></li>
           {{/facetsLingua}}
         </ul>
       </div>
     </div>
     <div id="column-right" class="column">
 
-      <div style="margin-bottom:20px;" class="container">
+      <div style="margin-bottom:20px; width: 100% " class="container">
         <section id="input-append" class="row-fluid">
           <form id="main-search" role="search" autocomplete="off">
             <div class="input-field">
               <input id="search" type="search" placeholder="Cerca un'opera nella teca...">
-              <label class="label-icon" for="search"><i class="material-icons" style="font-size: 34px">search</i></label>
+              <label class="label-icon" for="search"><i class="material-icons" style="font-size: 34px; margin-top: -0.1em">search</i></label>
               <i id="clearsearch" class="material-icons" style="font-size: 3rem; top: 1rem;">close</i>
             </div>
           </form>
@@ -48,16 +49,19 @@
       </div>
 
       <div class="row" style="margin-bottom:0">
-          <div id="results-number"></div>
-          <div class="pagination-buttons"><ul id="pagination-demo" class="pagination-sm"></ul></div>
+        <div id="results-number"></div>
+        <div class="pagination-buttons">
+          <ul id="pagination-demo" class="pagination-sm"></ul>
+        </div>
       </div>
       <div class="row" style="margin:0">
         <div id="active-filters" style="float:left"></div>
       </div>
       <br> {{#instances}}
       <a href="/book/{{identifier}}" title="{{label}}" class="nodeca">
-        <div class="card opera-card">
+        <div class="card opera-card" style="overflow: auto;">
           <div class="card-content white-text">
+            <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
             <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span> {{author}}
             <p style=" font-size:14px"> {{date}}</p>
             <p style=" font-size:10px"> {{identifier}}</p>
@@ -66,7 +70,11 @@
       </a>
       {{/instances}}
       <br>
-      <div class="pagination-buttons" style="float: right;"></div>
+      <div class="row" style="margin-bottom:0">
+        <div class="pagination-buttons">
+          <ul id="sync-pagination-demo" class="pagination-sm"></ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>

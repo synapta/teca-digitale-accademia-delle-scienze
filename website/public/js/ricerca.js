@@ -64,7 +64,7 @@ $.getJSON("/search?q=" + query, function(resData) {
   }
   obj.facetsData = [];
   for (var i = 0; i < obj.facetsDataArray.length; i++) {
-    if (obj.facetsDataArray[i].key !== '9999' && obj.facetsDataArray[i].key !== "") {
+    if (obj.facetsDataArray[i].key !== '9999' && obj.facetsDataArray[i].key !== "    ") {
       var fa = {};
       fa.title = obj.facetsDataArray[i].key;
       fa.count = obj.facetsDataArray[i].doc_count;
@@ -103,9 +103,9 @@ $.getJSON("/search?q=" + query, function(resData) {
     var pages = Math.ceil(parseInt(num) / 10);
     var currentPage = parseInt(getUrlParameter("start")) || 1;
 
-    $('#results-number').append((num || 0 ) + " risultati");
+    $('#results-number').append((num || 0) + " risultati");
 
-    $('#pagination-demo').twbsPagination({
+    var paginationObj = {
       totalPages: pages,
       visiblePages: 5,
       startPage: currentPage,
@@ -121,13 +121,17 @@ $.getJSON("/search?q=" + query, function(resData) {
           document.location.href = "/?q=" + (obj.currentQuery || "") + "&start=" + page;
         }
       }
-    });
+    }
+
+    $('#pagination-demo').twbsPagination(paginationObj);
+
+    $('#sync-pagination-demo').twbsPagination(paginationObj);
+
   });
 });
 
-$(document).on("keypress","#search",function(e){
+$(document).on("keypress", "#search", function(e) {
   if (e.which == 13) {
-    console.log(searchField)
     e.preventDefault()
     var searchField = $('#search').val();
     var params = "";
