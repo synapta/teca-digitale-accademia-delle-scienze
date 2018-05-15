@@ -6730,6 +6730,6 @@ footer {
   float: right;
   position: relative;
   z-index: 2;
-  margin:0 0 24px 0 !important;
+  margin:0;
   padding-left: 1em;
 }
