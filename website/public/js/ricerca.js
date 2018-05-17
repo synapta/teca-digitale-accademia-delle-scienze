@@ -68,10 +68,10 @@ $.getJSON("/search?q=" + query, function(resData) {
       var fa = {};
       fa.title = obj.facetsDataArray[i].key;
       fa.count = obj.facetsDataArray[i].doc_count;
+      if (fa.count == 0) {
+        break;
+      }
       obj.facetsData.push(fa);
-    }
-    if (fa.count == 0) {
-      break;
     }
 
   }
@@ -141,4 +141,8 @@ $(document).on("keypress", "#search", function(e) {
       document.location.href = "/?q=" + searchField + params;
     }
   }
+});
+
+$(document).on("click", "#clearsearch", function(e) {
+    document.location.href = "/?q=&start=1";
 });
