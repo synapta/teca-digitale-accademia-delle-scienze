@@ -23,8 +23,16 @@ for directory in os.listdir(basedir):
     print directory
     for element in os.listdir(basedir + '/' + directory):
         if ".xml" == element[-4:] and element.replace(".xml", ""):
-            time.sleep(0.5) 
-            r = requests.get("https://archive.org/metadata/" +  element.replace(".xml", "") )
+            done = False
+            while not done:
+                try:
+                    time.sleep(1) 
+                    r = requests.get("https://archive.org/metadata/" +  element.replace(".xml", ""), timeout=2 )
+                    done = True
+                except:
+                    print "Failed request"
+
+        
             if r.text != '{}':
                 print("skipping " + element.replace(".xml", ""))
             else:
@@ -55,7 +63,8 @@ for directory in os.listdir(basedir):
                         bookObj['description'] = child.text
                     elif 'date' in child.tag:
                         if 'date' not in bookObj.keys():
-                            bookObj['date'] = child.text
+                            if child.text != '9999':
+                                bookObj['date'] = child.text
                     #elif 'format' in child.tag:
                     #    bookObj['format'] = child.text
                     elif 'language' in child.tag:
