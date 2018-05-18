@@ -17,6 +17,7 @@ function beautyFilter(value) {
   return value.replace("creator=", "Autore: ")
     .replace("date=", "Data: ")
     .replace("language=", "Lingua: ")
+    .replace("type=", "Tipologia: ")
 }
 
 var type = getUrlParameter("type");
@@ -40,6 +41,7 @@ $.getJSON("/search?q=" + query, function(resData) {
     instances: resData.data.items,
     facetsAuthArray: resData.data.aggregations.creator.buckets,
     facetsDataArray: resData.data.aggregations.date.buckets,
+    facetsTypeArray: resData.data.aggregations.type.buckets,
     facetsLinguaArray: resData.data.aggregations.language.buckets,
   }
 
@@ -49,7 +51,19 @@ $.getJSON("/search?q=" + query, function(resData) {
     obj.instances[i].title = obj.instances[i].title;
     obj.instances[i].author = obj.instances[i].creator;
     obj.instances[i].date = obj.instances[i].date;
+    obj.instances[i].type = obj.instances[i].type;
     obj.instances[i].identifier = obj.instances[i].identifier;
+  }
+
+  obj.facetsType = [];
+  for (var i = 0; i < obj.facetsTypeArray.length; i++) {
+    var fa = {};
+    fa.type = obj.facetsTypeArray[i].key;
+    fa.count = obj.facetsTypeArray[i].doc_count;
+    if (fa.count == 0) {
+      break;
+    }
+    obj.facetsType.push(fa);
   }
 
   obj.facetsAuth = [];

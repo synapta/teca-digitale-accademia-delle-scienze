@@ -12,6 +12,10 @@ var itemsjs = require('itemsjs')(data, {
       title: 'publisher',
       size: 10
     },
+    type: {
+      title: 'type',
+      size: 10
+    },
     language: {
       title: 'language',
       size: 10
@@ -25,14 +29,14 @@ var itemsjs = require('itemsjs')(data, {
       size: 10
     }
   },
-  searchableFields: ['title', 'description', 'date', 'creator', 'identifier']
+  searchableFields: ['title', 'description', 'date', 'creator', 'identifier', 'type']
 });
 
 exports.searchItem = function(request) {
   console.log(request.query)
   var filters = {};
 
-  ['creator', 'date', 'publisher', 'language' ].forEach(function(v) {
+  ['creator', 'date', 'publisher', 'language', 'type'].forEach(function(v) {
     filters[v] = request.query[v];
   })
 

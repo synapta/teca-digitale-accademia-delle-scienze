@@ -5,6 +5,16 @@
         <h1 data-wp-edit="Title" style="text-align: left; margin-top: 1em; font-size: 24px; font-family: Georgia Pro;">Teca Digitale</h1> </a>
 
       <div class="row">
+        <h2 style="font-weight: 400;" class="section-header">Tipologia</h2>
+        <hr class="facet-hr" />
+        <ul class="facet-list">
+          {{#facetsType}}
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;type={{type}}">{{type}}</a> <small>({{count}})</small></li>
+          {{/facetsType}}
+        </ul>
+      </div>
+
+      <div class="row">
         <h2 style="font-weight: 400;" class="section-header">Autore</h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
@@ -64,6 +74,7 @@
             <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
             <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span> {{author}}
             <p style=" font-size:14px"> {{date}}</p>
+            <p style=" font-size:14px"> {{type}}</p>
             <p style=" font-size:10px"> {{identifier}}</p>
           </div>
         </div>
