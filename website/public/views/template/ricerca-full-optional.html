@@ -4,18 +4,19 @@
       <a href="/?q=&start=1">
         <h1 data-wp-edit="Title" style="text-align: left; margin-top: 1em; font-size: 24px; font-family: Georgia Pro;">Teca Digitale</h1> </a>
 
-      <div class="row">
-        <h2 style="font-weight: 400;" class="section-header">Tipologia</h2>
+      <div class="row" id="tipologiaFacet">
+        <h2 data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom" style="font-weight: 400;" class="section-header">Tipologia</h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
           {{#facetsType}}
-          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;type={{type}}">{{type}}</a> <small>({{count}})</small></li>
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;type={{type}}">{{type}}</a> <small>({{count}} unità)</small></li>
           {{/facetsType}}
         </ul>
       </div>
 
-      <div class="row">
-        <h2 style="font-weight: 400;" class="section-header">Autore</h2>
+      {{#hasSearch}}
+      <div class="row" id="autoreFacet">
+        <h2 style="font-weight: 400;" class="section-header" data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom">Autore</h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
           {{#facetsAuth}}
@@ -23,9 +24,9 @@
           {{/facetsAuth}}
         </ul>
       </div>
-
+      {{/hasSearch}} {{#hasSearch}}
       <div class="row">
-        <h2 style="font-weight: 400;" class="section-header">Data</h2>
+        <h2 data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom" style="font-weight: 400;" class="section-header">Data</h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
           {{#facetsData}}
@@ -33,9 +34,10 @@
           {{/facetsData}}
         </ul>
       </div>
+      {{/hasSearch}}
 
-      <div class="row">
-        <h2 style="font-weight: 400;" class="section-header">Lingua</h2>
+      <div class="row" id="linguaFacet">
+        <h2 data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom" style="font-weight: 400;" class="section-header">Lingua</h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
           {{#facetsLingua}}

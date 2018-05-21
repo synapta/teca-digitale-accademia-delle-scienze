@@ -33,7 +33,6 @@ var itemsjs = require('itemsjs')(data, {
 });
 
 exports.searchItem = function(request) {
-  console.log(request.query)
   var filters = {};
 
   ['creator', 'date', 'publisher', 'language', 'type'].forEach(function(v) {

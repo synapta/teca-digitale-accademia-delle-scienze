@@ -24,6 +24,7 @@
     {
         "creator": "Oersted, Hans Christian",
         "date": "1854",
+        "description": "",
         "identifier": "TO01083579_TO0324_PRE-15685_000002",
         "language": "ger",
         "mediatype": "texts",
@@ -34,6 +35,7 @@
     {
         "creator": "Oersted, Hans Christian",
         "date": "1854",
+        "description": "",
         "identifier": "TO01083579_TO0324_PRE-15685_000001",
         "language": "ger",
         "mediatype": "texts",
@@ -130,7 +132,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1846",
+        "description": "",
         "identifier": "TO00176561_TO0324_600_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -139,7 +143,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -148,7 +154,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000013",
         "language": "ita",
         "mediatype": "texts",
@@ -157,7 +165,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000014",
         "language": "ita",
         "mediatype": "texts",
@@ -166,7 +176,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1801",
+        "description": "",
         "identifier": "TO00180747_TO0324_1392_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -175,7 +187,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000016",
         "language": "ita",
         "mediatype": "texts",
@@ -184,7 +198,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000018",
         "language": "ita",
         "mediatype": "texts",
@@ -193,7 +209,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00180770_TO0324_25119_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -202,7 +220,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -211,7 +231,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -220,7 +242,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00180770_TO0324_25119_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -229,7 +253,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1830",
+        "description": "",
         "identifier": "TO00176565_TO0324_25047_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -238,7 +264,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1801",
+        "description": "",
         "identifier": "TO00180747_TO0324_1392_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -247,7 +275,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1801",
+        "description": "",
         "identifier": "TO00180747_TO0324_1392_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -256,7 +286,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000017",
         "language": "ita",
         "mediatype": "texts",
@@ -265,7 +297,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1830",
+        "description": "",
         "identifier": "TO00176565_TO0324_25047_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -274,7 +308,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000012",
         "language": "ita",
         "mediatype": "texts",
@@ -283,7 +319,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00180770_TO0324_25119_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -292,7 +330,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -301,7 +341,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1846",
+        "description": "",
         "identifier": "TO00176561_TO0324_600_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -310,7 +352,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -319,7 +363,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1830",
+        "description": "",
         "identifier": "TO00176565_TO0324_25047_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -328,7 +374,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1801",
+        "description": "",
         "identifier": "TO00180747_TO0324_1392_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -337,7 +385,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1830",
+        "description": "",
         "identifier": "TO00176565_TO0324_25047_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -346,7 +396,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1801",
+        "description": "",
         "identifier": "TO00180747_TO0324_1392_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -355,7 +407,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000015",
         "language": "ita",
         "mediatype": "texts",
@@ -364,7 +418,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00180770_TO0324_25119_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -373,7 +429,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00180770_TO0324_25119_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -382,7 +440,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -391,7 +451,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -400,7 +462,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1846",
+        "description": "",
         "identifier": "TO00176561_TO0324_600_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -409,7 +473,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -418,7 +484,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1801",
+        "description": "",
         "identifier": "TO00180747_TO0324_1392_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -427,7 +495,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1801",
+        "description": "",
         "identifier": "TO00180747_TO0324_1392_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -436,7 +506,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1801",
+        "description": "",
         "identifier": "TO00180747_TO0324_1392_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -445,7 +517,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -454,7 +528,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -463,7 +539,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00180770_TO0324_25119_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -472,7 +550,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00180770_TO0324_25119_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -481,7 +561,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1846",
+        "description": "",
         "identifier": "TO00176561_TO0324_600_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -490,7 +572,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00180770_TO0324_25119_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -499,7 +583,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1807",
+        "description": "",
         "identifier": "TO00180746_TO0324_1391_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -510,6 +596,7 @@
     {
         "creator": "Libri, Guglielmo",
         "date": "1844",
+        "description": "",
         "identifier": "TO01665611_TO0324_88893_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -520,6 +607,7 @@
     {
         "creator": "Mascheroni, Lorenzo",
         "date": "1829",
+        "description": "",
         "identifier": "RAVE009354_TO0324_PNI-930_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -530,6 +618,7 @@
     {
         "creator": "Giulio, Carlo Ignazio",
         "date": "1846",
+        "description": "",
         "identifier": "TO00962944_TO0324_52346_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -540,6 +629,7 @@
     {
         "creator": "Libri, Guglielmo",
         "date": "1838",
+        "description": "",
         "identifier": "TO00168143_TO0324_84656_000001",
         "language": "fre",
         "mediatype": "texts",
@@ -550,6 +640,7 @@
     {
         "creator": "Libri, Guglielmo",
         "date": "1841",
+        "description": "",
         "identifier": "TO01189655_TO0324_74428_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -560,6 +651,7 @@
     {
         "creator": "Nicolai, Giovanni Battista",
         "date": "1786",
+        "description": "",
         "identifier": "TO0E112486_TO0324_PNI-20686_000001",
         "language": "lat",
         "mediatype": "texts",
@@ -570,6 +662,7 @@
     {
         "creator": "Magistrini, Giambattista",
         "date": "1816",
+        "description": "",
         "identifier": "RMSE005269_TO0324_PNI-14146_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -580,6 +673,7 @@
     {
         "creator": "Magistrini, Giambattista",
         "date": "1819",
+        "description": "",
         "identifier": "TO0E039320_TO0324_PNI-1568_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -590,6 +684,7 @@
     {
         "creator": "Giulio, Carlo Ignazio",
         "date": "1846",
+        "description": "",
         "identifier": "LO10208254_TO0324_39363_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -600,6 +695,7 @@
     {
         "creator": "Libri, Guglielmo",
         "date": "1838",
+        "description": "",
         "identifier": "UFI0301848_TO0324_84658_000002",
         "language": "fre",
         "mediatype": "texts",
@@ -610,6 +706,7 @@
     {
         "creator": "Manfredi, Eustachio",
         "date": "1729",
+        "description": "",
         "identifier": "UFIE003373_TO0324_PNI-2242_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -620,6 +717,7 @@
     {
         "creator": "Leonardi, Camillo",
         "date": "1717",
+        "description": "",
         "identifier": "TO0E103407_TO0324_PNI-17934_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -630,6 +728,7 @@
     {
         "creator": "Libri, Guglielmo",
         "date": "1841",
+        "description": "",
         "identifier": "UFI0301859_TO0324_84660_000004",
         "language": "fre",
         "mediatype": "texts",
@@ -640,6 +739,7 @@
     {
         "creator": "Libri, Guglielmo",
         "date": "1840",
+        "description": "",
         "identifier": "UFI0301854_TO0324_84659_000003",
         "language": "fre",
         "mediatype": "texts",
@@ -650,6 +750,7 @@
     {
         "creator": "Nicolai, Giovanni Battista",
         "date": "1793",
+        "description": "",
         "identifier": "TO0E112487_TO0324_PNI-20687_000002",
         "language": "lat",
         "mediatype": "texts",
@@ -660,6 +761,7 @@
     {
         "creator": "Giulio, Carlo Ignazio",
         "date": "1854",
+        "description": "",
         "identifier": "PUV0838844_TO0324_39339_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -669,16 +771,19 @@
     },
     {
         "creator": "Giobert, Giovanni Antonio",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "TO0E092085_TO0324_PNI-14146_000002",
         "language": "ita",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Instruzioni intorno l'arte tintoria particolarmente delle lane tradotte dal tedesco di Poerner accresciute con annotazioni di Desmarets, Bertholet e  Giobert... Tomo 2",
         "type": "Monografia"
     },
     {
         "creator": "Nicolai, Giovanni Battista",
         "date": "1783",
+        "description": "",
         "identifier": "TO0E039737_TO0324_PNI-1708_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -688,16 +793,19 @@
     },
     {
         "creator": "Giobert, Giovanni Antonio",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "TO0E092084_TO0324_PNI-14148_000001",
         "language": "ita",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Instruzioni intorno l'arte tintoria particolarmente delle lane tradotte dal tedesco di Poerner accresciute con annotazioni di Desmarets, Bertholet e  Giobert... Tomo 1",
         "type": "Monografia"
     },
     {
         "creator": "Libri, Guglielmo",
         "date": "1845",
+        "description": "",
         "identifier": "TO00764613_TO0324_88892_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -706,7 +814,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1845",
+        "description": "",
         "identifier": "TO00599853_TO0324_35497_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -715,7 +825,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1847",
+        "description": "",
         "identifier": "TO00599855_TO0324_35500_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -724,7 +836,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1847",
+        "description": "",
         "identifier": "TO00599859_TO0324_35503_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -733,7 +847,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1847",
+        "description": "",
         "identifier": "TO00599858_TO0324_35501_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -742,7 +858,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1846",
+        "description": "",
         "identifier": "TO00599854_TO0324_35499_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -753,7 +871,7 @@
     {
         "creator": "Moivre, Abraham : de ",
         "date": "1756",
-        "description": "Leg. in pelle; sul dorso: tassello con aut. e tit. abbreviati impressi in oro; tagli spruzzati di rosso; labbri decorati con fregi impressi in oro. ",
+        "description": "Leg. in pelle; sul dorso: tassello con aut. e tit. abbreviati impressi in oro; tagli spruzzati di rosso; labbri decorati con fregi impressi in oro.",
         "identifier": "TO0E039714_TO0324_PNI-1692_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -764,7 +882,7 @@
     {
         "creator": "Musschenbroek, Petrus : van",
         "date": "1754",
-        "description": "Leg. in cartone ",
+        "description": "Leg. in cartone",
         "identifier": "RMSE006857_TO0324_PNI-2312_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -780,7 +898,7 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "[1814]",
-        "title": "M\u00e9moire sur la distribution de l'electricite dans une sphere creuse electrisee par influence; par M. Poisson",
+        "title": "MÃ©moire sur la distribution de l'electricite dans une sphere creuse electrisee par influence; par M. Poisson",
         "type": "Monografia"
     },
     {
@@ -812,7 +930,8 @@
         "identifier": "TO0E040376_TO0324_PNI-1966_000000",
         "language": "fre",
         "mediatype": "texts",
-        "title": "M\u00e9moire sur la theorie du magnetisme; par M. Poisson. Lu a l'Academie royale des sciences le 2 fevrier 1824",
+        "publisher": "",
+        "title": "MÃ©moire sur la theorie du magnetisme; par M. Poisson. Lu a l'Academie royale des sciences le 2 fevrier 1824",
         "type": "Monografia"
     },
     {
@@ -834,46 +953,46 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "[1814]",
-        "title": "M\u00e9moire sur les surfaces elastiques; par M. Poisson. Lu le 1er aout 1814",
+        "title": "MÃ©moire sur les surfaces elastiques; par M. Poisson. Lu le 1er aout 1814",
         "type": "Monografia"
     },
     {
         "creator": "Poisson, Simeon Denis",
         "date": "1827",
-        "description": "Vol. misc. Leg. in mezza pelle. ",
+        "description": "Vol. misc. Leg. in mezza pelle.",
         "identifier": "TO0E040533_TO0324_PNI-2054_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "[1827]",
-        "title": "M\u00e9moire sur le mouvement de la terre autour de son centre de gravite. Par M. Poisson ..",
+        "title": "MÃ©moire sur le mouvement de la terre autour de son centre de gravite. Par M. Poisson ..",
         "type": "Monografia"
     },
     {
         "creator": "Peclet, Jean-Claude-Eugene",
         "date": "1827",
-        "description": " Leg. in mezza pelle ",
+        "description": "Leg. in mezza pelle",
         "identifier": "TO0E041340_TO0324_PNI-2549_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Paris : a la librairie scientifique et industrielle de Malher et C.ie, passage Dauphine Imprimerie de H. Fournier, rue de Seine, n. 14, 1827 ([Parigi]",
-        "title": "Trait\u00e9 de l'eclairage par E. Peclet, ex professeur des sciences physiques au College Royale de Marseille ...",
+        "title": "TraitÃ© de l'eclairage par E. Peclet, ex professeur des sciences physiques au College Royale de Marseille ...",
         "type": "Monografia"
     },
     {
         "creator": "Ramond de Carbonnieres, Louis Francois Elisabeth",
         "date": "1811",
-        "description": "Leg. in mezza pelle. ",
+        "description": "Leg. in mezza pelle.",
         "identifier": "TO0E040524_TO0324_PNI-2049_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Clermont-Ferrand : de l'imprimerie de Landriot, 1811",
-        "title": "M\u00e9moires sur la formule barometrique de la mecanique celeste, et les dispositions de l'atmosphere qui en modifient les proprietes: augmentes d'une instruction elementaire et pratique ... par L. Ramond ...",
+        "title": "MÃ©moires sur la formule barometrique de la mecanique celeste, et les dispositions de l'atmosphere qui en modifient les proprietes: augmentes d'une instruction elementaire et pratique ... par L. Ramond ...",
         "type": "Monografia"
     },
     {
         "creator": "Puissant, Louis",
         "date": "1824",
-        "description": "Leg. in mezza pelle. ",
+        "description": "Leg. in mezza pelle.",
         "identifier": "TO0E041302_TO0324_PNI-2536_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -899,7 +1018,8 @@
         "identifier": "TO0E040374_TO0324_PNI-1963_000000",
         "language": "fre",
         "mediatype": "texts",
-        "title": "M\u00e9moire sur la distribution de la chaleur dans les corps solides",
+        "publisher": "",
+        "title": "MÃ©moire sur la distribution de la chaleur dans les corps solides",
         "type": "Monografia"
     },
     {
@@ -916,7 +1036,7 @@
     {
         "creator": "Moseley, Henry",
         "date": "1830",
-        "description": "Leg. in cartone ",
+        "description": "Leg. in cartone",
         "identifier": "TO0E065588_TO0324_PNI-14224_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -927,7 +1047,7 @@
     {
         "creator": "Olbers, Wilhelm",
         "date": "1797",
-        "description": " Leg. in mezza pelle. All'interno annotazioni ms. ",
+        "description": "Leg. in mezza pelle. All'interno annotazioni ms.",
         "identifier": "TO0E041140_TO0324_PNI-2452_000000",
         "language": "ger",
         "mediatype": "texts",
@@ -938,18 +1058,18 @@
     {
         "creator": "Poisson, Simeon Denis",
         "date": "1826",
-        "description": "Vol. misc. Leg. in mezza pelle. ",
+        "description": "Vol. misc. Leg. in mezza pelle.",
         "identifier": "TO0E040530_TO0324_PNI-2052_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "[1826]",
-        "title": "M\u00e9moire sur la theorie du magnetisme en mouvement; par M. Poisson ...",
+        "title": "MÃ©moire sur la theorie du magnetisme en mouvement; par M. Poisson ...",
         "type": "Monografia"
     },
     {
         "creator": "Phillips, Richard",
         "date": "1822",
-        "description": "Leg. in pelle ",
+        "description": "Leg. in pelle",
         "identifier": "TO0E043224_TO0324_PNI-3335_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -965,23 +1085,24 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "[1821]",
-        "title": "M\u00e9moire sur l'integration des equations lineaires aux differences partielles; par M. Poisson. Lu a l'Academie des Sciences, le 31 Decembre 1821",
+        "title": "MÃ©moire sur l'integration des equations lineaires aux differences partielles; par M. Poisson. Lu a l'Academie des Sciences, le 31 Decembre 1821",
         "type": "Monografia"
     },
     {
         "creator": "Poisson, Simeon Denis",
         "date": "1826",
-        "description": "Vol. misc. Leg. in mezza pelle. ",
+        "description": "Vol. misc. Leg. in mezza pelle.",
         "identifier": "TO0E040526_TO0324_PNI-2050_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "[1826]",
-        "title": "M\u00e9moire sur le calcul numerique des integrales definies. Par M. Poisson ..",
+        "title": "MÃ©moire sur le calcul numerique des integrales definies. Par M. Poisson ..",
         "type": "Monografia"
     },
     {
         "creator": "Harrison, John",
         "date": "1767",
+        "description": "",
         "identifier": "RMSE001904_TO0324_PNI-2058_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -992,6 +1113,7 @@
     {
         "creator": "Freret, Nicolas",
         "date": "1796",
+        "description": "",
         "identifier": "CAGE000297_TO0324_PNI-988_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1002,16 +1124,18 @@
     {
         "creator": "Fontaine des Bertins, Alexis",
         "date": "1764",
+        "description": "",
         "identifier": "TO0E040724_TO0324_PNI-2195_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Paris : de l'Imprimerie Royale, 1764",
-        "title": "M\u00e9moires donnes a l' Academie royale des sciences, non imprimes dans leur temps, par M. Fontaine, de cette Academie",
+        "title": "MÃ©moires donnes a l' Academie royale des sciences, non imprimes dans leur temps, par M. Fontaine, de cette Academie",
         "type": "Monografia"
     },
     {
         "creator": "Huber, Daniel",
         "date": "1829",
+        "description": "",
         "identifier": "TO0E040970_TO0324_PNI-2354_000000",
         "language": "ger",
         "mediatype": "texts",
@@ -1022,6 +1146,7 @@
     {
         "creator": "Huber, Daniel",
         "date": "1823",
+        "description": "",
         "identifier": "TO0E040974_TO0324_PNI-2356_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -1043,6 +1168,7 @@
     {
         "creator": "Germain, Sophie",
         "date": "1821",
+        "description": "",
         "identifier": "TO0E039736_TO0324_PNI-1705_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1053,6 +1179,7 @@
     {
         "creator": "Gautier, Alfred",
         "date": "1825",
+        "description": "",
         "identifier": "TO0E041601_TO0324_PNI-2644_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1085,6 +1212,7 @@
     {
         "creator": "Emerson, William <1701-1782>",
         "date": "1743",
+        "description": "",
         "identifier": "TO0E037877_TO0324_PNI-1116_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -1106,6 +1234,7 @@
     {
         "creator": "Hauksbee, Francis",
         "date": "1716",
+        "description": "",
         "identifier": "PUVE004383_TO0324_PNI-1929_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1116,6 +1245,7 @@
     {
         "creator": "Gautier, Alfred",
         "date": "1817",
+        "description": "",
         "identifier": "TO0E040284_TO0324_PNI-1945_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1124,188 +1254,229 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000019",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XIX Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XIX AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000011",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XI Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XI AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000005",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts V Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts V AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000021",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XXI Ann\u00e9e N. 1-53",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XXI AnnÃ©e N. 1-53",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000023",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XXIII Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XXIII AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000007",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts VII Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts VII AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000002",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts II Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts II AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000001",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts I Ann\u00e9e N. 1-39",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts I AnnÃ©e N. 1-39",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000024",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts 24 Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts 24 AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000006",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts VI Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts VI AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000016",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XVI Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XVI AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000017",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XVII Ann\u00e9e N. 1-51",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XVII AnnÃ©e N. 1-51",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000012",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XII Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XII AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000004",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts IV Ann\u00e9e N. 1-53",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts IV AnnÃ©e N. 1-53",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000008",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts VIII Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts VIII AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000013",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XIII Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XIII AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000022",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XXII Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XXII AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000009",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts IX Ann\u00e9e N. 1-53",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts IX AnnÃ©e N. 1-53",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000020",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XX Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XX AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000003",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts III Ann\u00e9e N. 1-51",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts III AnnÃ©e N. 1-51",
         "type": "Periodico"
     },
     {
         "creator": "Gaudenzio, Paganino",
         "date": "1643",
+        "description": "",
         "identifier": "IEI0103888_TO0324_PNI-14761_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -1314,44 +1485,53 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000014",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XIV Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XIV AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000015",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XV Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XV AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000010",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts X Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts X AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1816",
+        "description": "",
         "identifier": "TO00186883_TO0324_2033_000018",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Chambery : Cleaz, 1816-1842",
-        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XVIII Ann\u00e9e N. 1-52",
+        "title": "Journal de Savoie : feuille politique, religieuse, litteraire et contenant ce qui interesse l'agriculture et les arts XVIII AnnÃ©e N. 1-52",
         "type": "Periodico"
     },
     {
         "creator": "Nobili, Giuseppe",
         "date": "1904",
+        "description": "",
         "identifier": "TO01653271_TO0324_88839_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1362,6 +1542,7 @@
     {
         "creator": "Canestrini, Giovanni",
         "date": "1880",
+        "description": "",
         "identifier": "TO00165800_TO0324_54597_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1372,6 +1553,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1899",
+        "description": "",
         "identifier": "TO01653103_TO0324_88848_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1382,6 +1564,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1895",
+        "description": "",
         "identifier": "PUV0935602_TO0324_88853_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1392,6 +1575,7 @@
     {
         "creator": "Alberti, Alberto",
         "date": "1909",
+        "description": "",
         "identifier": "LIA0024617_TO0324_PRE-76238_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1402,6 +1586,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1900",
+        "description": "",
         "identifier": "TO01653141_TO0324_88847_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1412,6 +1597,7 @@
     {
         "creator": "De Filippi, Filippo",
         "date": "1900",
+        "description": "",
         "identifier": "RAV0252619_TO0324_54798_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1422,6 +1608,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1906",
+        "description": "",
         "identifier": "TO01653366_TO0324_88852_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1432,6 +1619,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1905",
+        "description": "",
         "identifier": "TO01653331_TO0324_88855_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1441,16 +1629,19 @@
     },
     {
         "creator": "Fogazzaro, Antonio",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "TO00166942_TO0324_53660_000000",
         "language": "ita",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Per un recente raffronto delle teorie di S. Agostino e di Darwin circa la creazione. - Antonio Fogazzaro. - 6. ed. - Milano : Galli, 1892. - 111 p.; 20 cm.",
         "type": "Monografia"
     },
     {
         "creator": "Haeckel, Ernst Heinrich",
         "date": "1892",
+        "description": "",
         "identifier": "UFI0199294_TO0324_52672_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1461,6 +1652,7 @@
     {
         "creator": "Conn, Herbert William",
         "date": "1907",
+        "description": "",
         "identifier": "RAV0106316_TO0324_PRE-65953_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1471,6 +1663,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1905",
+        "description": "",
         "identifier": "TO01653291_TO0324_88854_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1481,6 +1674,7 @@
     {
         "creator": "Fogazzaro, Antonio",
         "date": "1893",
+        "description": "",
         "identifier": "SBL0060941_TO0324_53663_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1491,6 +1685,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1906",
+        "description": "",
         "identifier": "TO01653352_TO0324_88836_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1501,6 +1696,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1901",
+        "description": "",
         "identifier": "TO01653212_TO0324_88850_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1511,6 +1707,7 @@
     {
         "creator": "Milesi, Giovanni Battista",
         "date": "1896",
+        "description": "",
         "identifier": "RMS0072430_TO0324_30331_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1521,6 +1718,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1906",
+        "description": "",
         "identifier": "TO01653363_TO0324_88841_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1531,6 +1729,7 @@
     {
         "creator": "Farges, Alberto",
         "date": "1896",
+        "description": "",
         "identifier": "CSA0058641_TO0324_54005_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1541,6 +1740,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1906",
+        "description": "",
         "identifier": "TO01653356_TO0324_88838_000000",
         "language": "spa",
         "mediatype": "texts",
@@ -1551,6 +1751,7 @@
     {
         "creator": "Camerano, Lorenzo",
         "date": "1887",
+        "description": "",
         "identifier": "TO01178274_TO0324_PRE-14881_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1561,6 +1762,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1905",
+        "description": "",
         "identifier": "TO01653320_TO0324_88842_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1571,6 +1773,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1905",
+        "description": "",
         "identifier": "TO01653327_TO0324_88835_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1581,6 +1784,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1898",
+        "description": "",
         "identifier": "TO01653093_TO0324_88849_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1591,6 +1795,7 @@
     {
         "creator": "De Filippi, Filippo",
         "date": "1864",
+        "description": "",
         "identifier": "UBO2122483_TO0324_18657_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1601,6 +1806,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1907",
+        "description": "",
         "identifier": "TO01653360_TO0324_88834_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1611,6 +1817,7 @@
     {
         "creator": "Haeckel, Ernst Heinrich",
         "date": "1895",
+        "description": "",
         "identifier": "PAL0104156_TO0324_52536_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1621,6 +1828,7 @@
     {
         "creator": "Clodd, Edward",
         "date": "1903",
+        "description": "",
         "identifier": "PAL0002940_TO0324_PRE-66280_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1631,6 +1839,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1902",
+        "description": "",
         "identifier": "TO01653221_TO0324_88846_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1641,6 +1850,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1906",
+        "description": "",
         "identifier": "TO01661854_TO0324_88856_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1651,6 +1861,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1905",
+        "description": "",
         "identifier": "TO01653324_TO0324_88843_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1661,6 +1872,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1894",
+        "description": "",
         "identifier": "TO01653028_TO0324_88851_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1671,6 +1883,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1904",
+        "description": "",
         "identifier": "TO01653277_TO0324_88845_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1681,6 +1894,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1906",
+        "description": "",
         "identifier": "TO01653347_TO0324_88844_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1691,6 +1905,7 @@
     {
         "creator": "Magri, Francesco",
         "date": "1893",
+        "description": "",
         "identifier": "PUV0387717_TO0324_26312_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1701,6 +1916,7 @@
     {
         "creator": "Marenzi, Francesco",
         "date": "1875",
+        "description": "",
         "identifier": "TO01046273_TO0324_26825_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1711,16 +1927,18 @@
     {
         "creator": "Anderson, Robert Edward",
         "date": "1903",
+        "description": "",
         "identifier": "PUV0237951_TO0324_PNI-23_000000",
         "language": "ita",
         "mediatype": "texts",
         "publisher": "Torino : F.lli Bocca, 1903",
-        "title": "Le civilt\u00e0 estinte dell'Oriente / Roberto E. Anderson; traduzione dall'inglese del dr. Giuseppe Nobili",
+        "title": "Le civiltÃ  estinte dell'Oriente / Roberto E. Anderson; traduzione dall'inglese del dr. Giuseppe Nobili",
         "type": "Monografia"
     },
     {
         "creator": "Nobili, Giuseppe",
         "date": "1905",
+        "description": "",
         "identifier": "TO01653328_TO0324_88833_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1731,6 +1949,7 @@
     {
         "creator": "Savoia, Luigi Amedeo : di",
         "date": "1908",
+        "description": "",
         "identifier": "CAG0106278_TO0324_PRE-66841_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1741,6 +1960,7 @@
     {
         "creator": "Macario, Maurizio Martino Antonio",
         "date": "1874",
+        "description": "",
         "identifier": "TO01036673_TO0324_25289_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1751,6 +1971,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1905",
+        "description": "",
         "identifier": "TO01653287_TO0324_88840_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1761,6 +1982,7 @@
     {
         "creator": "Nobili, Giuseppe",
         "date": "1903",
+        "description": "",
         "identifier": "TO01653229_TO0324_88837_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -1769,7 +1991,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1869",
+        "description": "",
         "identifier": "UM10017543_TO0324_40945_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -1778,7 +2002,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1873",
+        "description": "",
         "identifier": "PUV0576775_TO0324_40949_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -1787,7 +2013,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1874",
+        "description": "",
         "identifier": "PUV0576776_TO0324_40950_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -1796,7 +2024,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1871",
+        "description": "",
         "identifier": "UM10017552_TO0324_40947_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -1805,7 +2035,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1872",
+        "description": "",
         "identifier": "UM10017554_TO0324_40948_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -1814,7 +2046,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1865",
+        "description": "",
         "identifier": "UM10017541_TO0324_40944_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -1823,7 +2057,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1875",
+        "description": "",
         "identifier": "PUV0576778_TO0324_88832_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -1832,7 +2068,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1857",
+        "description": "",
         "identifier": "MOD0293227_TO0324_41130_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -1841,7 +2079,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1870",
+        "description": "",
         "identifier": "UM10017547_TO0324_40946_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -1852,12 +2092,12 @@
     {
         "creator": "Senebier, Jean",
         "date": "1788",
-        "description": "Leg. in mezza pelle con punte. ",
+        "description": "Leg. in mezza pelle con punte.",
         "identifier": "TO0E041587_TO0324_PNI-2635_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Geneve : chez Barde, Manget & Compagnie, et se trouve a Paris chez Buisson, hotel de Coetlosquet, rue de Hauteseuille, n. 20, 1788",
-        "title": "Experiences sur l'action de la lumi\u00e8re solaire dans la vegetation. Par Jean Senebier ...",
+        "title": "Experiences sur l'action de la lumiÃ¨re solaire dans la vegetation. Par Jean Senebier ...",
         "type": "Monografia"
     },
     {
@@ -1868,7 +2108,7 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Geneve : chez Barthelemi Chirol, libraire, 1783",
-        "title": "Recherches sur l'influence de la lumiere solaire pour metamorphoser l'air fixe en air pur par la vegetation. Avec des exp\u00e9riences & des considerations propres a faire connoitre la nature des substances aeriformes. Par Jean Senebier ...",
+        "title": "Recherches sur l'influence de la lumiere solaire pour metamorphoser l'air fixe en air pur par la vegetation. Avec des expÃ©riences & des considerations propres a faire connoitre la nature des substances aeriformes. Par Jean Senebier ...",
         "type": "Monografia"
     },
     {
@@ -1929,7 +2169,7 @@
     {
         "creator": "Zach, Franz Xaver : von",
         "date": "1814",
-        "description": "Leg. in mezza pelle ",
+        "description": "Leg. in mezza pelle",
         "identifier": "TO0E035511_TO0324_PNI-243_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -1950,23 +2190,24 @@
     },
     {
         "creator": "Newton, Isaac",
-        "date": "    ",
+        "date": "",
         "description": "Leg. in pelle; dorso con fregi impressi in oro; segnacolo di seta verde",
         "identifier": "UFIE003337_TO0324_PNI-3241_000001",
         "language": "lat",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Arithmetica universalis; sive De compositione et resolutione arithmetica. Auctore Is. Newton ... Cum commentario Johannis Castillionei ... Tomus primus  -[secundus] Vol. 1",
         "type": "Monografia"
     },
     {
         "creator": "Zach, Franz Xaver : von",
         "date": "1810",
-        "description": "Leg. editoriale. ",
+        "description": "Leg. editoriale.",
         "identifier": "TO0E040575_TO0324_PNI-2085_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "[1810]",
-        "title": "M\u00e9moire de M. le baron De-Zach sur le degre du meridien mesure en Piemont par le pere Beccaria. Lu a la seance du 16 juin 1810",
+        "title": "MÃ©moire de M. le baron De-Zach sur le degre du meridien mesure en Piemont par le pere Beccaria. Lu a la seance du 16 juin 1810",
         "type": "Monografia"
     },
     {
@@ -1983,7 +2224,7 @@
     {
         "creator": "Waring, Edward",
         "date": "1785",
-        "description": "Leg. in mezza pelle; sul dorso: aut. tit. e fregi impressi in oro ",
+        "description": "Leg. in mezza pelle; sul dorso: aut. tit. e fregi impressi in oro",
         "identifier": "TO0E039740_TO0324_PNI-1709_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -1994,7 +2235,7 @@
     {
         "creator": "Waring, Edward",
         "date": "1772",
-        "description": "Leg. in mezza pelle. Sul front.: nota ms. ",
+        "description": "Leg. in mezza pelle. Sul front.: nota ms.",
         "identifier": "TO0E039431_TO0324_PNI-1591_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -2014,9 +2255,9 @@
         "type": "Monografia"
     },
     {
-        "creator": "Svanberg, Jons <1771-1851>",
+        "creator": "Svanberg, Jons",
         "date": "1805",
-        "description": "Leg. in mezza tela. ",
+        "description": "Leg. in mezza tela.",
         "identifier": "TO0E037814_TO0324_PNI-2547_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -2026,11 +2267,12 @@
     },
     {
         "creator": "Newton, Isaac",
-        "date": "    ",
+        "date": "",
         "description": "Leg. in pelle; dorso con fregi impressi in oro; segnacolo di seta verde",
         "identifier": "UFIE003338_TO0324_PNI-3243_000002",
         "language": "lat",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Arithmetica universalis; sive De compositione et resolutione arithmetica. Auctore Is. Newton ... Cum commentario Johannis Castillionei ... Tomus primus  -[secundus] Vol. 2",
         "type": "Monografia"
     },
@@ -2057,12 +2299,13 @@
         "type": "Monografia"
     },
     {
-        "creator": "Wright, Thomas<1711-1786>",
-        "date": "    ",
+        "creator": "Wright, Thomas",
+        "date": "",
         "description": "Leg. in pelle, dorso con tasselli e titolo impresso in oro. Sul contropiatto ant. ex libris di Ryves. ",
         "identifier": "TO0E080257_TO0324_PNI-12461_000000",
         "language": "eng",
         "mediatype": "texts",
+        "publisher": "",
         "title": "An original Theory or new Hypothesis of the Universe, founded upon the Laws of Nature, and solving by mathematical principles the general phaenomena of the visible creation; and particularly the Via Lactea Compris'd in Nine Familiar Lattres ... and Illustrated ... By Thomas Wright, of Durham.- London : printed for the Author, and sold by H. Chapelle, in Grosvenor-Street, 1750",
         "type": "Monografia"
     },
@@ -2089,7 +2332,7 @@
         "type": "Monografia"
     },
     {
-        "creator": "Dupin, Charles <1784-1873>",
+        "creator": "Dupin, Charles",
         "date": "1819",
         "description": "Leg. in mezza pelle.",
         "identifier": "TO0E041604_TO0324_PNI-2645_000000",
@@ -2111,7 +2354,7 @@
         "type": "Monografia"
     },
     {
-        "creator": "Duncan, William <1717-1760>",
+        "creator": "Duncan, William",
         "date": "1811",
         "description": "Leg. in pelle.",
         "identifier": "TO0E043926_TO0324_PNI-3505_000000",
@@ -2179,7 +2422,7 @@
     {
         "creator": "Clairaut, Alexis Claude <1713-1765>",
         "date": "1808",
-        "description": "Leg. in mezza pelle con punte; Nota biogr. dell'A. ms. sul recto della 1\u00b0 c. di guardia. ",
+        "description": "Leg. in mezza pelle con punte; Nota biogr. dell'A. ms. sul recto della 1Â° c. di guardia.",
         "identifier": "RMSE006286_TO0324_PNI-2742_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -2228,7 +2471,7 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Paris : de l'Imprimerie Royale chez Debure freres, libraires du Roi et de la bibliotheque du Roi, rue Serpente, n. 7, 1823",
-        "title": "R\u00e9sum\u00e9 des le\u00e7ons donnees a l'Ecole Royale Polytechnique sur le calcul infinit\u00e9simal, par m. Augustin-Louis Cauchy... Tome premier",
+        "title": "RÃ©sumÃ© des leÃ§ons donnees a l'Ecole Royale Polytechnique sur le calcul infinitÃ©simal, par m. Augustin-Louis Cauchy... Tome premier",
         "type": "Monografia"
     },
     {
@@ -2239,7 +2482,7 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Paris : chez De Bure freres, libraires du roi et de la bibliotheque du roi, rue Serpente, N. 7, 1829",
-        "title": "Lecons sur le calcul diff\u00e9rentiel, par M. Augustin-Louis Cauchy, ... ",
+        "title": "Lecons sur le calcul diffÃ©rentiel, par M. Augustin-Louis Cauchy, ... ",
         "type": "Monografia"
     },
     {
@@ -2261,7 +2504,7 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Paris : chez Lambert & Durand, libraires, rue Saint-Jacques, au Grifon, 1741",
-        "title": "El\u00e9mens de g\u00e9ometrie. Par m. Clairaut, de l'Acad\u00e9mie royale des Sciences, & de la Soci\u00e9t\u00e9 royale de Londres",
+        "title": "ElÃ©mens de gÃ©ometrie. Par m. Clairaut, de l'AcadÃ©mie royale des Sciences, & de la SociÃ©tÃ© royale de Londres",
         "type": "Monografia"
     },
     {
@@ -2289,6 +2532,7 @@
     {
         "creator": "Baily, Francis",
         "date": "1827",
+        "description": "",
         "identifier": "TO0E039741_TO0324_PNI-1712_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -2304,7 +2548,7 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Paris : chez Duprat, an V [1797]",
-        "title": "Reflexions sur la m\u00e9taphysique du calcul infinitesimal, par le citoyen Carnot, membre de l'Institut national",
+        "title": "Reflexions sur la mÃ©taphysique du calcul infinitesimal, par le citoyen Carnot, membre de l'Institut national",
         "type": "Monografia"
     },
     {
@@ -2315,7 +2559,7 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Paris : Firmin Didot, pere et fils, rue Jacob n. 24",
-        "title": "R\u00e9cherches sur plusieurs points de l'astronomie egyptienne appliquees aux monumens astronomiques trouves en Egypte: par J.-B. Biot ...",
+        "title": "RÃ©cherches sur plusieurs points de l'astronomie egyptienne appliquees aux monumens astronomiques trouves en Egypte: par J.-B. Biot ...",
         "type": "Monografia"
     },
     {
@@ -2332,6 +2576,7 @@
     {
         "creator": "Baily, Francis",
         "date": "1818",
+        "description": "",
         "identifier": "TO0E039226_TO0324_PNI-1528_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -2353,6 +2598,7 @@
     {
         "creator": "Leibniz, Gottfried Wilhelm : von",
         "date": "1734",
+        "description": "",
         "identifier": "TO0E052320_TO0324_PNI-7442_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -2363,7 +2609,7 @@
     {
         "creator": "Bessel, Friedrich Wilhelm",
         "date": "1830",
-        "description": "Leg. in cartone. ",
+        "description": "Leg. in cartone.",
         "identifier": "TO0E041030_TO0324_PNI-2391_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -2390,13 +2636,13 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Paris : de l'imprimerie de Crapelet chez Deterville, libraire, rue du Battoir, n. 16, quartier S. Andre-des-Arcs, an XI-1803",
-        "title": "Principes fondamentaux de l'\u00e9quilibre et du mouvement; par L. N. M. Carnot ...",
+        "title": "Principes fondamentaux de l'Ã©quilibre et du mouvement; par L. N. M. Carnot ...",
         "type": "Monografia"
     },
     {
         "creator": "Beudant, Francois Sulpice",
         "date": "1815",
-        "description": "Leg. editoriale. ",
+        "description": "Leg. editoriale.",
         "identifier": "TO0E040691_TO0324_PNI-2175_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -2418,7 +2664,7 @@
     {
         "creator": "Cavallo, Tiberius",
         "date": "1785",
-        "description": "Leg. in piena pelle; sul dorso tassello con tit. e fregi impressi in oro; tagli tinti di rosso; segnacolo in seta verde; c. di guardia marmorizzate ",
+        "description": "Leg. in piena pelle; sul dorso tassello con tit. e fregi impressi in oro; tagli tinti di rosso; segnacolo in seta verde; c. di guardia marmorizzate",
         "identifier": "TO0E041431_TO0324_PNI-2582_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -2440,6 +2686,7 @@
     {
         "creator": "Brewster, David",
         "date": "1813",
+        "description": "",
         "identifier": "TO0E041255_TO0324_PNI-2532_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -2450,6 +2697,7 @@
     {
         "creator": "Baily, Francis",
         "date": "1827",
+        "description": "",
         "identifier": "TO0E041232_TO0324_PNI-2525_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -2471,6 +2719,7 @@
     {
         "creator": "Baily, Francis",
         "date": "1824",
+        "description": "",
         "identifier": "TO0E039227_TO0324_PNI-1530_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -2481,26 +2730,29 @@
     {
         "creator": "Forni, Luigi",
         "date": "1824",
+        "description": "",
         "identifier": "TO0E010806_TO0324_PNI-15801_000000",
         "language": "ita",
         "mediatype": "texts",
         "publisher": "Torino : dalla stamperia reale, 1824",
-        "title": "Sulla esistenza e propriet\u00e0 del calorico. Saggio fisico-medico del dottore Luigi Forni ...",
+        "title": "Sulla esistenza e proprietÃ  del calorico. Saggio fisico-medico del dottore Luigi Forni ...",
         "type": "Monografia"
     },
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1747",
+        "description": "",
         "identifier": "TO0E003395_TO0324_PNI-8174_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Turin : de l'Imprimerie Royale, 1747",
-        "title": "L'immaterialit\u00e9 de l'ame d\u00e9montr\u00e9e contre m. Locke par les memes principes, par lesquels ce philosophe d\u00e9montre l'existence & l'immaterialit\u00e9 de Dieu, avec des nouvelles preuves de l'immaterialit\u00e9 de Dieu, et de l'ame, tir\u00e9es de l'Ecriture, des Peres &amp; de la raison par le p. Gerdil barnabite ...",
+        "title": "L'immaterialitÃ© de l'ame dÃ©montrÃ©e contre m. Locke par les memes principes, par lesquels ce philosophe dÃ©montre l'existence & l'immaterialitÃ© de Dieu, avec des nouvelles preuves de l'immaterialitÃ© de Dieu, et de l'ame, tirÃ©es de l'Ecriture, des Peres &amp; de la raison par le p. Gerdil barnabite ...",
         "type": "Monografia"
     },
     {
         "creator": "Genovesi, Antonio",
         "date": "1781",
+        "description": "",
         "identifier": "RMSE006845_TO0324_PNI-13134_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2511,6 +2763,7 @@
     {
         "creator": "Giannettasio, Nicola Partenio <1648-1715>",
         "date": "1721",
+        "description": "",
         "identifier": "SBLE004768_TO0324_PNI-4994_000003",
         "language": "lat",
         "mediatype": "texts",
@@ -2521,6 +2774,7 @@
     {
         "creator": "De Martino, Pietro <1707-1746>",
         "date": "1762",
+        "description": "",
         "identifier": "TO0E077812_TO0324_PNI-12021_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2531,24 +2785,29 @@
     {
         "creator": "Genovesi, Antonio",
         "date": "1761",
+        "description": "",
         "identifier": "UBOE046464_TO0324_PNI-20638_000002",
         "language": "lat",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Elementa physicae conscripta in usus academicos a Petro van Musschenbroek quibus nunc primum in gratiam studiosae juventutis accedunt ... - Editio tertia veneta ... Tomus primus -secundus] Vol. 2",
         "type": "Monografia"
     },
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1748",
+        "description": "",
         "identifier": "UBOE004847_TO0324_PNI-8176_000000",
         "language": "fre",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Defense du sentiment du p. Malebranche sur la nature, & l'origine des idees contre l'examen de m. Locke par le p. Gerdil barnabite ... - A Turin : de l'Imprimerie royale, 1748. - [16], XXXIX, [1], 246, [22] p.; 4o ((Stemma xil. sul front. - Segn.: a-g4 A-2I4 2K6. - Variante B: [16], XXXIX, [1], 282, [1] p.; segn.: a-g4 A-2K4 2L[10; la c. 2L4 segn. erroneamente 2L[3.",
         "type": "Monografia"
     },
     {
         "creator": "Giannettasio, Nicola Partenio <1648-1715>",
         "date": "1715",
+        "description": "",
         "identifier": "SBLE004767_TO0324_PNI-4991_000002",
         "language": "lat",
         "mediatype": "texts",
@@ -2559,6 +2818,7 @@
     {
         "creator": "Euclides",
         "date": "1785",
+        "description": "",
         "identifier": "TO0E078755_TO0324_PRE-21088_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2567,7 +2827,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00175324_TO0324_379_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -2578,16 +2840,18 @@
     {
         "creator": "Forni, L.",
         "date": "1821",
+        "description": "",
         "identifier": "TO0E029518_TO0324_PNI-13646_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : de l'Imprimerie Ghiringhello et Bonaudo, 1821",
-        "title": "El\u00e9mens de physiologie de la nature ou resultats des recherches proposees par l'Acad\u00e9mie Imperiale des sciences de Petersbourg ... Par le docteur Louis Forni ..",
+        "title": "ElÃ©mens de physiologie de la nature ou resultats des recherches proposees par l'AcadÃ©mie Imperiale des sciences de Petersbourg ... Par le docteur Louis Forni ..",
         "type": "Monografia"
     },
     {
         "creator": "Giannettasio, Nicola Partenio <1648-1715>",
         "date": "1714",
+        "description": "",
         "identifier": "SBLE004766_TO0324_PNI-4990_000001",
         "language": "lat",
         "mediatype": "texts",
@@ -2598,6 +2862,7 @@
     {
         "creator": "Ginanni, Francesco <1716-1766>",
         "date": "1774",
+        "description": "",
         "identifier": "UFIE001256_TO0324_PNI-2841_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2606,7 +2871,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00175324_TO0324_379_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -2617,16 +2884,18 @@
     {
         "creator": "Gaussen, Jean <1737-1809>",
         "date": "1789",
+        "description": "",
         "identifier": "TO0E112391_TO0324_PNI-20630_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Beziers : de l'imprimerie de Jean-Joseph Fuzier, avocat, imprimeur du Roi, 1789",
-        "title": "Dissertation sur le thermom\u00e8tre de R\u00e9aumur, par m. Gaussen, des Academies roiales ...",
+        "title": "Dissertation sur le thermomÃ¨tre de RÃ©aumur, par m. Gaussen, des Academies roiales ...",
         "type": "Monografia"
     },
     {
         "creator": "Fontana, Felice <1730-1805>",
         "date": "1775",
+        "description": "",
         "identifier": "TO0E039247_TO0324_PNI-1537_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2635,7 +2904,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1791",
+        "description": "",
         "identifier": "TO00175324_TO0324_379_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -2646,6 +2917,7 @@
     {
         "creator": "Scopoli, Giovanni Antonio <1723-1788>",
         "date": "1763",
+        "description": "",
         "identifier": "UFIE001032_TO0324_PNI-21411_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -2655,16 +2927,19 @@
     },
     {
         "creator": "Genovesi, Antonio",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "VIAE006434_TO0324_PNI-20637_000001",
         "language": "lat",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Elementa physicae conscripta in usus academicos a Petro van Musschenbroek quibus nunc primum in gratiam studiosae juventutis accedunt ... - Editio tertia veneta ... Tomus primus -secundus] Vol. 1",
         "type": "Monografia"
     },
     {
         "creator": "Cossali, Pietro",
         "date": "1813",
+        "description": "",
         "identifier": "PUVE001548_TO0324_PNI-2234_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2675,6 +2950,7 @@
     {
         "creator": "Conti, Antonio <1677-1749>",
         "date": "1739",
+        "description": "",
         "identifier": "FERE002822_TO0324_PNI-8367_000001",
         "language": "lat",
         "mediatype": "texts",
@@ -2685,16 +2961,18 @@
     {
         "creator": "Bidone, Giorgio",
         "date": "1822",
+        "description": "",
         "identifier": "TO0E040773_TO0324_PNI-2250_000004",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : de l'Imprimerie Royale",
-        "title": "Exp\u00e9riences sur divers cas de la contraction de la veine fluide, et remarque sur la maniere d'avoir egard a la contraction dans le calcul de la depense des orifices. Par George Bidone",
+        "title": "ExpÃ©riences sur divers cas de la contraction de la veine fluide, et remarque sur la maniere d'avoir egard a la contraction dans le calcul de la depense des orifices. Par George Bidone",
         "type": "Monografia"
     },
     {
         "creator": "Bidone, Giorgio",
         "date": "1825",
+        "description": "",
         "identifier": "TO0E028220_TO0324_PNI-2256_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -2705,26 +2983,29 @@
     {
         "creator": "Bidone, Giorgio",
         "date": "1820",
+        "description": "",
         "identifier": "TO0E040768_TO0324_PNI-2246_000002",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : de l'Imprimerie Royale, 1820",
-        "title": "Exp\u00e9riences sur le remou et sur la propagation des ondes par George Bidone",
+        "title": "ExpÃ©riences sur le remou et sur la propagation des ondes par George Bidone",
         "type": "Monografia"
     },
     {
         "creator": "Bidone, Giorgio",
         "date": "1820",
+        "description": "",
         "identifier": "TO0E040769_TO0324_PNI-2247_000002",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "[1820]",
-        "title": "M\u00e9moire sur les transcendantes elliptiques . Deuxi\u00e8me partie. Par Mr. George Bidone. Lu dans la seance du 7 fevrier 1819 ...",
+        "title": "MÃ©moire sur les transcendantes elliptiques . DeuxiÃ¨me partie. Par Mr. George Bidone. Lu dans la seance du 7 fevrier 1819 ...",
         "type": "Monografia"
     },
     {
         "creator": "Papacino d'Antoni, Alessandro Vittorio",
-        "date": "0   ",
+        "date": "0",
+        "description": "",
         "identifier": "TO0E079160_TO0324_PNI-12293_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2735,6 +3016,7 @@
     {
         "creator": "Bidone, Giorgio",
         "date": "1824",
+        "description": "",
         "identifier": "TO0E040775_TO0324_PNI-2254_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -2745,16 +3027,18 @@
     {
         "creator": "Bidone, Giorgio",
         "date": "1824",
+        "description": "",
         "identifier": "TO0E040771_TO0324_PNI-2248_000003",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : Imprimerie Royale, 1824",
-        "title": "Exp\u00e9riences sur la depense des reversoirs et sur l'acceleration et la courbure qu'ils occasionnent a la surface du courant par George Bidone",
+        "title": "ExpÃ©riences sur la depense des reversoirs et sur l'acceleration et la courbure qu'ils occasionnent a la surface du courant par George Bidone",
         "type": "Monografia"
     },
     {
         "creator": "Conti, Antonio <1677-1749>",
         "date": "1756",
+        "description": "",
         "identifier": "FERE002823_TO0324_PNI-8368_000002",
         "language": "fre",
         "mediatype": "texts",
@@ -2765,6 +3049,7 @@
     {
         "creator": "Borgo, Carlo",
         "date": "1777",
+        "description": "",
         "identifier": "VIAE006287_TO0324_PNI-20175_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2775,6 +3060,7 @@
     {
         "creator": "Derossi, Onorato",
         "date": "1781",
+        "description": "",
         "identifier": "RMRE001124_TO0324_PNI-1052_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2785,6 +3071,7 @@
     {
         "creator": "Cardano, Girolamo",
         "date": "1821",
+        "description": "",
         "identifier": "TO0E000236_TO0324_PNI-19636_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2793,7 +3080,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1774",
+        "description": "",
         "identifier": "TO0E040073_TO0324_PNI-1854_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -2804,6 +3093,7 @@
     {
         "creator": "Bidone, Giorgio",
         "date": "1830",
+        "description": "",
         "identifier": "TO0E040777_TO0324_PNI-2252_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -2814,16 +3104,18 @@
     {
         "creator": "Bidone, Giorgio",
         "date": "1817",
+        "description": "",
         "identifier": "TO0E040766_TO0324_PNI-2244_000001",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : de l'Imprimerie Royale, 1817",
-        "title": "M\u00e9moire sur les transcendantes elliptiques par George Bidone",
+        "title": "MÃ©moire sur les transcendantes elliptiques par George Bidone",
         "type": "Monografia"
     },
     {
         "creator": "Bidone, Giorgio",
         "date": "1825",
+        "description": "",
         "identifier": "TO0E040767_TO0324_PNI-2245_000001",
         "language": "fre",
         "mediatype": "texts",
@@ -2834,6 +3126,7 @@
     {
         "creator": "Papacino d' Antoni, Alessandro Vittorio <1714-1786>",
         "date": "1816",
+        "description": "",
         "identifier": "TO0E040076_TO0324_PRE-21041_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2842,7 +3135,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1773",
+        "description": "",
         "identifier": "TO0E040072_TO0324_PRE-21040_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -2853,16 +3148,18 @@
     {
         "creator": "Bidone, Giorgio",
         "date": "1812",
+        "description": "",
         "identifier": "TO0E040774_TO0324_PNI-2251_000004",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : chez Felix Galletti imprimeur de l'Academie Imperiale des Sciences, etc., Mai 1812",
-        "title": "M\u00e9moires sur diverses integrales definies. Par Georges Bidone",
+        "title": "MÃ©moires sur diverses integrales definies. Par Georges Bidone",
         "type": "Monografia"
     },
     {
         "creator": "Papacino d'Antoni, Alessandro Vittorio",
         "date": "1780",
+        "description": "",
         "identifier": "TO0E039973_TO0324_3-21067_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2873,6 +3170,7 @@
     {
         "creator": "Alberti, Marcello",
         "date": "1740",
+        "description": "",
         "identifier": "TO0E035104_TO0324_PRE-16061_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2883,6 +3181,7 @@
     {
         "creator": "Colletti, Nicolao",
         "date": "1787",
+        "description": "",
         "identifier": "TO0E074737_TO0324_PNI-14367_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2893,6 +3192,7 @@
     {
         "creator": "Balbo, Prospero",
         "date": "1830",
+        "description": "",
         "identifier": "TO0E068552_TO0324_PNI-8525_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2903,6 +3203,7 @@
     {
         "creator": "Craveri, Giovanni Gaspare",
         "date": "1753",
+        "description": "",
         "identifier": "TO0E003553_TO0324_PNI-65_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2913,16 +3214,18 @@
     {
         "creator": "Bidone, Giorgio",
         "date": "1811",
+        "description": "",
         "identifier": "TO0E040770_TO0324_PNI-2249_000003",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : de l'Imprimerie de l'Academie Imperiale des Sciences, 1811",
-        "title": "M\u00e9moire sur la cause des ricochets que font les pierres et les boulets de canon, lances obliquement sur la surface de l'eau. Par Georges Bidone",
+        "title": "MÃ©moire sur la cause des ricochets que font les pierres et les boulets de canon, lances obliquement sur la surface de l'eau. Par Georges Bidone",
         "type": "Monografia"
     },
     {
         "creator": "Bidone, Giorgio",
         "date": "1811",
+        "description": "",
         "identifier": "TO0E040778_TO0324_PNI-2253_000005",
         "language": "fre",
         "mediatype": "texts",
@@ -2933,6 +3236,7 @@
     {
         "creator": "Bianchi, Giovanni <1693-1775>",
         "date": "1739",
+        "description": "",
         "identifier": "UFIE000895_TO0324_PNI-2849_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -2941,7 +3245,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1841",
+        "description": "",
         "identifier": "TO00599828_TO0324_35494_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -2950,7 +3256,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO01649805_TO0324_88816_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2959,7 +3267,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO01649806_TO0324_88817_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2968,7 +3278,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO01649802_TO0324_88813_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -2977,7 +3289,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1843",
+        "description": "",
         "identifier": "TO00599830_TO0324_PRE-16124_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -2986,7 +3300,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1843",
+        "description": "",
         "identifier": "TO00599835_TO0324_35495_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -2995,7 +3311,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO01649803_TO0324_88814_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3004,7 +3322,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO01649804_TO0324_88815_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3013,7 +3333,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO01649796_TO0324_50708_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3022,7 +3344,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1844",
+        "description": "",
         "identifier": "TO00599836_TO0324_35496_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -3032,16 +3356,19 @@
     },
     {
         "creator": "Sobrero, Ascanio",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "TO01637041_TO0324_88731_000000",
         "language": "ita",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Della cagione della malattia della vite e dei mezzi da usarsi per debellarla / del professore Ascanio Sobrero",
         "type": "Monografia"
     },
     {
         "creator": "Sobrero, Ascanio",
         "date": "1868",
+        "description": "",
         "identifier": "TO01637134_TO0324_88740_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3052,6 +3379,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1871",
+        "description": "",
         "identifier": "TO01488939_TO0324_88737_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3062,6 +3390,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1874",
+        "description": "",
         "identifier": "TO01079477_TO0324_35258_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3072,6 +3401,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1874",
+        "description": "",
         "identifier": "TO01637130_TO0324_88739_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3082,6 +3412,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1869",
+        "description": "",
         "identifier": "TO00019070_TO0324_88735_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3092,6 +3423,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1865",
+        "description": "",
         "identifier": "TO01079589_TO0324_35307_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3102,6 +3434,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1874",
+        "description": "",
         "identifier": "TO01637132_TO0324_88741_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3112,6 +3445,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1877",
+        "description": "",
         "identifier": "UFI0307979_TO0324_35279_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3122,6 +3456,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1856",
+        "description": "",
         "identifier": "RMS0046512_TO0324_35286_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3132,6 +3467,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1871",
+        "description": "",
         "identifier": "TO01488875_TO0324_88738_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3142,6 +3478,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1853",
+        "description": "",
         "identifier": "RMS0046510_TO0324_35284_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3152,6 +3489,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1871",
+        "description": "",
         "identifier": "TO01637137_TO0324_88742_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3162,6 +3500,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1883",
+        "description": "",
         "identifier": "TO01637068_TO0324_88734_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3172,6 +3511,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1873",
+        "description": "",
         "identifier": "TO01079562_TO0324_35296_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3182,6 +3522,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1869",
+        "description": "",
         "identifier": "TO01637075_TO0324_88736_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3192,6 +3533,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1872",
+        "description": "",
         "identifier": "TO01637048_TO0324_88732_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3200,7 +3542,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1865",
+        "description": "",
         "identifier": "IST0008363_TO0324_34521_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3211,6 +3555,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1871",
+        "description": "",
         "identifier": "TO01637063_TO0324_88733_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3221,6 +3566,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1866",
+        "description": "",
         "identifier": "UFI0308685_TO0324_35287_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3231,6 +3577,7 @@
     {
         "creator": "Sobrero, Ascanio",
         "date": "1851",
+        "description": "",
         "identifier": "RMS0046509_TO0324_35283_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -3239,7 +3586,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1848",
+        "description": "",
         "identifier": "TO00599861_TO0324_35505_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -3248,7 +3597,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1849",
+        "description": "",
         "identifier": "TO00599896_TO0324_35509_000013",
         "language": "ita",
         "mediatype": "texts",
@@ -3257,7 +3608,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1849",
+        "description": "",
         "identifier": "TO00599862_TO0324_35506_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -3266,7 +3619,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1851",
+        "description": "",
         "identifier": "TO00740272_TO0324_35510_000014",
         "language": "ita",
         "mediatype": "texts",
@@ -3275,7 +3630,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1848",
+        "description": "",
         "identifier": "TO00599865_TO0324_35507_000012",
         "language": "ita",
         "mediatype": "texts",
@@ -3284,7 +3641,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1835",
+        "description": "",
         "identifier": "TO00192802_TO0324_3065_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -3293,7 +3652,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1829",
+        "description": "",
         "identifier": "TO00180515_TO0324_4037_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -3302,7 +3663,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1828",
+        "description": "",
         "identifier": "TO00192790_TO0324_3063_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -3311,7 +3674,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1835",
+        "description": "",
         "identifier": "TO00192802_TO0324_3065_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -3320,7 +3685,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1829",
+        "description": "",
         "identifier": "TO00180515_TO0324_4037_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -3329,7 +3696,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1835",
+        "description": "",
         "identifier": "TO00192802_TO0324_3065_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -3338,7 +3707,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1835",
+        "description": "",
         "identifier": "TO00192802_TO0324_3065_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -3347,7 +3718,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1829",
+        "description": "",
         "identifier": "TO00180515_TO0324_4037_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -3356,7 +3729,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1829",
+        "description": "",
         "identifier": "TO00180515_TO0324_4037_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -3365,7 +3740,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1828",
+        "description": "",
         "identifier": "TO00192790_TO0324_3063_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -3374,7 +3751,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1828",
+        "description": "",
         "identifier": "TO00192790_TO0324_3063_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -3383,7 +3762,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1829",
+        "description": "",
         "identifier": "TO00180515_TO0324_4037_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -3392,7 +3773,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1828",
+        "description": "",
         "identifier": "TO00192790_TO0324_3063_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -3401,7 +3784,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1835",
+        "description": "",
         "identifier": "TO00192802_TO0324_3065_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -3410,7 +3795,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1828",
+        "description": "",
         "identifier": "TO00192790_TO0324_3063_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -3419,7 +3806,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1829",
+        "description": "",
         "identifier": "TO00180515_TO0324_4037_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -3428,7 +3817,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1835",
+        "description": "",
         "identifier": "TO00192802_TO0324_3065_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -3437,7 +3828,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1828",
+        "description": "",
         "identifier": "TO00192790_TO0324_3063_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -3446,7 +3839,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1828",
+        "description": "",
         "identifier": "TO00192790_TO0324_3063_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -3455,7 +3850,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000013",
         "language": "ita",
         "mediatype": "texts",
@@ -3464,7 +3861,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000025",
         "language": "ita",
         "mediatype": "texts",
@@ -3473,7 +3872,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000037",
         "language": "ita",
         "mediatype": "texts",
@@ -3482,7 +3883,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1802",
+        "description": "",
         "identifier": "TO00178375_TO0324_980_000003",
         "language": "fre",
         "mediatype": "texts",
@@ -3491,7 +3894,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1802",
+        "description": "",
         "identifier": "TO00178375_TO0324_980_000002",
         "language": "fre",
         "mediatype": "texts",
@@ -3500,7 +3905,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000033",
         "language": "ita",
         "mediatype": "texts",
@@ -3509,7 +3916,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000029",
         "language": "ita",
         "mediatype": "texts",
@@ -3518,7 +3927,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1841",
+        "description": "",
         "identifier": "TO00175326_TO0324_380_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -3527,7 +3938,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000016",
         "language": "ita",
         "mediatype": "texts",
@@ -3536,7 +3949,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000027",
         "language": "ita",
         "mediatype": "texts",
@@ -3545,7 +3960,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000012",
         "language": "ita",
         "mediatype": "texts",
@@ -3554,7 +3971,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000032",
         "language": "ita",
         "mediatype": "texts",
@@ -3563,7 +3982,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -3572,7 +3993,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -3581,7 +4004,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000018",
         "language": "ita",
         "mediatype": "texts",
@@ -3590,7 +4015,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1841",
+        "description": "",
         "identifier": "TO00175326_TO0324_380_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -3599,7 +4026,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1841",
+        "description": "",
         "identifier": "TO00175326_TO0324_380_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -3608,7 +4037,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -3617,7 +4048,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -3626,7 +4059,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000031",
         "language": "ita",
         "mediatype": "texts",
@@ -3635,7 +4070,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000017",
         "language": "ita",
         "mediatype": "texts",
@@ -3644,7 +4081,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000020",
         "language": "ita",
         "mediatype": "texts",
@@ -3653,7 +4092,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000023",
         "language": "ita",
         "mediatype": "texts",
@@ -3662,7 +4103,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000015",
         "language": "ita",
         "mediatype": "texts",
@@ -3671,7 +4114,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000038",
         "language": "ita",
         "mediatype": "texts",
@@ -3680,7 +4125,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000028",
         "language": "ita",
         "mediatype": "texts",
@@ -3689,7 +4136,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1802",
+        "description": "",
         "identifier": "TO00178375_TO0324_980_000005",
         "language": "fre",
         "mediatype": "texts",
@@ -3698,7 +4147,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1802",
+        "description": "",
         "identifier": "TO00178375_TO0324_980_000001",
         "language": "fre",
         "mediatype": "texts",
@@ -3707,7 +4158,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000022",
         "language": "ita",
         "mediatype": "texts",
@@ -3716,7 +4169,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000036",
         "language": "ita",
         "mediatype": "texts",
@@ -3725,7 +4180,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000019",
         "language": "ita",
         "mediatype": "texts",
@@ -3734,7 +4191,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000035",
         "language": "ita",
         "mediatype": "texts",
@@ -3743,7 +4202,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -3752,7 +4213,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000021",
         "language": "ita",
         "mediatype": "texts",
@@ -3761,7 +4224,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -3770,7 +4235,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -3779,7 +4246,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000034",
         "language": "ita",
         "mediatype": "texts",
@@ -3788,7 +4257,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000026",
         "language": "ita",
         "mediatype": "texts",
@@ -3797,7 +4268,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -3806,7 +4279,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -3815,7 +4290,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1841",
+        "description": "",
         "identifier": "TO00175326_TO0324_380_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -3824,7 +4301,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1802",
+        "description": "",
         "identifier": "TO00178375_TO0324_980_000004",
         "language": "fre",
         "mediatype": "texts",
@@ -3833,7 +4312,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000014",
         "language": "ita",
         "mediatype": "texts",
@@ -3842,7 +4323,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -3851,7 +4334,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -3860,7 +4345,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000024",
         "language": "ita",
         "mediatype": "texts",
@@ -3869,7 +4356,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO00191673_TO0324_2838_000030",
         "language": "ita",
         "mediatype": "texts",
@@ -3880,7 +4369,7 @@
     {
         "creator": "Babbage, Charles",
         "date": "1822",
-        "description": "Vol. misc. Leg. in cartone. Dedica autografa dell'autore a Plana sul front. ",
+        "description": "Vol. misc. Leg. in cartone. Dedica autografa dell'autore a Plana sul front.",
         "identifier": "TO0E039283_TO0324_PNI-1555_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -3891,7 +4380,7 @@
     {
         "creator": "Babbage, Charles",
         "date": "1820",
-        "description": "Vol. misc. Leg. in cartone. Dedica autografa dell'autore a Plana sul front. ",
+        "description": "Vol. misc. Leg. in cartone. Dedica autografa dell'autore a Plana sul front.",
         "identifier": "TO0E039289_TO0324_PNI-1557_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -3901,10 +4390,12 @@
     },
     {
         "creator": "Musschenbroek, Petrus : van",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "RMLE017269_TO0324_PNI-13083_000001",
         "language": "lat",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Introductio ad Philosophiam Naturalem auctore Petro van Musschenbroekio. Editio prima italica pluribus adnotationibus emendata aucta atque illustrata. Tomus primus (-secundus) Tomus primus",
         "type": "Monografia"
     },
@@ -3960,7 +4451,7 @@
         "language": "fre",
         "mediatype": "texts",
         "publisher": "A Paris : chez Claude Jombert, rue S. Jacques, au coin de la rue des Mathurins, a l'Image Notre-Dame, 1729",
-        "title": "Essai d'optique, sur la gradation de la lumi\u00e8re. Par m. Bouguer ...",
+        "title": "Essai d'optique, sur la gradation de la lumiÃ¨re. Par m. Bouguer ...",
         "type": "Monografia"
     },
     {
@@ -3977,7 +4468,7 @@
     {
         "creator": "Babbage, Charles",
         "date": "1851",
-        "description": "Vol. misc. Leg. in cartone. ",
+        "description": "Vol. misc. Leg. in cartone.",
         "identifier": "TO01157442_TO0324_62167_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -3986,8 +4477,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1829",
-        "description": "Vol. misc. Leg. in cartone. ",
+        "description": "Vol. misc. Leg. in cartone.",
         "identifier": "TO0E131682_TO0324_PNI-22871_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -3998,7 +4490,7 @@
     {
         "creator": "Gardiner, William",
         "date": "1796",
-        "description": "Leg. in cartone ",
+        "description": "Leg. in cartone",
         "identifier": "TO0E040676_TO0324_PNI-2162_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4040,8 +4532,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1829",
-        "description": "Vol. misc. Leg. in cartone. ",
+        "description": "Vol. misc. Leg. in cartone.",
         "identifier": "TO0E131685_TO0324_PNI-22872_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -4074,6 +4567,7 @@
     {
         "creator": "Kater, Henry",
         "date": "1825",
+        "description": "",
         "identifier": "TO0E039250_TO0324_PNI-1538_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -4084,6 +4578,7 @@
     {
         "creator": "Adams, George <1750-1795>",
         "date": "1790",
+        "description": "",
         "identifier": "TO0E041358_TO0324_PNI-2563_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -4094,7 +4589,7 @@
     {
         "creator": "Diaz de Valdes, Pedro",
         "date": "1806",
-        "description": "Vol. misc. Leg. in pelle; sul dorso tit. impresso in oro; sui piatti: riquadri impressi in oro; tagli tinti di rosso. ",
+        "description": "Vol. misc. Leg. in pelle; sul dorso tit. impresso in oro; sui piatti: riquadri impressi in oro; tagli tinti di rosso.",
         "identifier": "TO0E097086_TO0324_PNI-16105_000000",
         "language": "spa",
         "mediatype": "texts",
@@ -4104,10 +4599,12 @@
     },
     {
         "creator": "Musschenbroek, Petrus : van",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "RMLE017270_TO0324_PNI-13084_000002",
         "language": "lat",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Introductio ad Philosophiam Naturalem auctore Petro van Musschenbroekio. Editio prima italica pluribus adnotationibus emendata aucta atque illustrata. Tomus primus (-secundus) Tomus secundus",
         "type": "Monografia"
     },
@@ -4125,6 +4622,7 @@
     {
         "creator": "Arnott, Neil",
         "date": "1829",
+        "description": "",
         "identifier": "TO0E106340_TO0324_PNI-18302_000001",
         "language": "eng",
         "mediatype": "texts",
@@ -4157,7 +4655,7 @@
     {
         "creator": "Babbage, Charles",
         "date": "1834",
-        "description": "Vol. misc. Leg. in cartone. ",
+        "description": "Vol. misc. Leg. in cartone.",
         "identifier": "TO01157391_TO0324_62137_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -4166,7 +4664,7 @@
         "type": "Monografia"
     },
     {
-        "creator": "Atwood, George <1746-1807>",
+        "creator": "Atwood, George",
         "date": "1781",
         "description": "Coperta in carta. - Pag. non rifilate.",
         "identifier": "LIAE005547_TO0324_PNI-12836_000000",
@@ -4179,7 +4677,7 @@
     {
         "creator": "Arnott, Neil",
         "date": "1829",
-        "description": " Leg. in mezza pelle; sul dorso tassello con tit. in oro; fregi impressi in oro.  Nel contropiatto ant.: ex libris (Di Robilant). - Nel recto dell'occhietto: firma ms. (C.te Pollon)",
+        "description": "Leg. in mezza pelle; sul dorso tassello con tit. in oro; fregi impressi in oro.  Nel contropiatto ant.: ex libris (Di Robilant). - Nel recto dell'occhietto: firma ms. (C.te Pollon)",
         "identifier": "TO0E106341_TO0324_PNI-18303_000002",
         "language": "eng",
         "mediatype": "texts",
@@ -4201,7 +4699,7 @@
     {
         "creator": "Marie, Joseph Francois",
         "date": "1803",
-        "description": "Leg. in cartone. Sulla c. di guardia 1r nota ms. ",
+        "description": "Leg. in cartone. Sulla c. di guardia 1r nota ms.",
         "identifier": "TO0E040696_TO0324_PNI-2177_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4212,7 +4710,7 @@
     {
         "creator": "Babbage, Charles",
         "date": "1820",
-        "description": "Vol. misc. Leg. in cartone. Dedica autografa dell'autore a Plana sul front. ",
+        "description": "Vol. misc. Leg. in cartone. Dedica autografa dell'autore a Plana sul front.",
         "identifier": "TO0E039272_TO0324_PNI-1551_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -4223,7 +4721,7 @@
     {
         "creator": "Diaz de Valdes, Pedro",
         "date": "1806",
-        "description": "Vol. misc. Leg. in pelle; sul dorso tit. impresso in oro; sui piatti: riquadri impressi in oro; tagli tinti di rosso. ",
+        "description": "Vol. misc. Leg. in pelle; sul dorso tit. impresso in oro; sui piatti: riquadri impressi in oro; tagli tinti di rosso.",
         "identifier": "TO0E097081_TO0324_PNI-16104_000000",
         "language": "spa",
         "mediatype": "texts",
@@ -4234,7 +4732,7 @@
     {
         "creator": "Babbage, Charles",
         "date": "1832",
-        "description": "Vol. misc. Leg. in cartone. ",
+        "description": "Vol. misc. Leg. in cartone.",
         "identifier": "TO01157472_TO0324_62180_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -4245,7 +4743,7 @@
     {
         "creator": "Babbage, Charles",
         "date": "1817",
-        "description": "Vol. misc. Leg. in cartone. ",
+        "description": "Vol. misc. Leg. in cartone.",
         "identifier": "TO0E039274_TO0324_PNI-1552_000000",
         "language": "eng",
         "mediatype": "texts",
@@ -4254,7 +4752,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -4263,7 +4763,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -4272,7 +4774,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000022",
         "language": "ita",
         "mediatype": "texts",
@@ -4281,7 +4785,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000024",
         "language": "ita",
         "mediatype": "texts",
@@ -4290,7 +4796,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -4299,7 +4807,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000012",
         "language": "ita",
         "mediatype": "texts",
@@ -4308,7 +4818,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -4317,7 +4829,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -4326,7 +4840,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000023",
         "language": "ita",
         "mediatype": "texts",
@@ -4335,7 +4851,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -4344,7 +4862,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000017",
         "language": "ita",
         "mediatype": "texts",
@@ -4353,7 +4873,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000026",
         "language": "ita",
         "mediatype": "texts",
@@ -4362,7 +4884,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000013",
         "language": "ita",
         "mediatype": "texts",
@@ -4371,7 +4895,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000019",
         "language": "ita",
         "mediatype": "texts",
@@ -4380,7 +4906,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -4389,7 +4917,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -4398,7 +4928,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000018",
         "language": "ita",
         "mediatype": "texts",
@@ -4407,7 +4939,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000016",
         "language": "ita",
         "mediatype": "texts",
@@ -4416,7 +4950,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000028",
         "language": "ita",
         "mediatype": "texts",
@@ -4425,7 +4961,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000029",
         "language": "ita",
         "mediatype": "texts",
@@ -4434,7 +4972,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000014",
         "language": "ita",
         "mediatype": "texts",
@@ -4443,7 +4983,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -4452,7 +4994,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -4461,7 +5005,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000021",
         "language": "ita",
         "mediatype": "texts",
@@ -4470,7 +5016,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000015",
         "language": "ita",
         "mediatype": "texts",
@@ -4479,7 +5027,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000020",
         "language": "ita",
         "mediatype": "texts",
@@ -4488,7 +5038,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000025",
         "language": "ita",
         "mediatype": "texts",
@@ -4497,7 +5049,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000027",
         "language": "ita",
         "mediatype": "texts",
@@ -4506,7 +5060,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1886",
+        "description": "",
         "identifier": "TO00178822_TO0324_1052_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -4515,7 +5071,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO00196159_TO0324_3537_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -4524,7 +5082,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1843",
+        "description": "",
         "identifier": "RML0026271_TO0324_4114_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -4533,7 +5093,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO00196159_TO0324_3537_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -4542,7 +5104,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1843",
+        "description": "",
         "identifier": "RML0026271_TO0324_4114_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -4551,7 +5115,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO00196159_TO0324_3537_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -4560,7 +5126,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1843",
+        "description": "",
         "identifier": "RML0026271_TO0324_4114_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -4569,7 +5137,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1848",
+        "description": "",
         "identifier": "TO00185189_TO0324_1823_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4578,7 +5148,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1812",
+        "description": "",
         "identifier": "TO00182786_TO0324_1808_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4587,7 +5159,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1843",
+        "description": "",
         "identifier": "TO00203365_TO0324_4704_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4596,7 +5170,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO00196159_TO0324_3537_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -4605,7 +5181,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO00196159_TO0324_3537_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -4614,7 +5192,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO00196159_TO0324_3537_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -4623,7 +5203,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1836",
+        "description": "",
         "identifier": "TO00196159_TO0324_3537_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -4634,6 +5216,7 @@
     {
         "creator": "Beccaria, Giambatista",
         "date": "1774",
+        "description": "",
         "identifier": "TO0E000866_TO0324_PNI-889_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -4644,6 +5227,7 @@
     {
         "creator": "Beccaria, Giambatista",
         "date": "1775",
+        "description": "",
         "identifier": "TO0E000861_TO0324_PNI-196_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -4654,16 +5238,18 @@
     {
         "creator": "Zantedeschi, Francesco",
         "date": "1846",
+        "description": "",
         "identifier": "UM10085459_TO0324_88811_000002",
         "language": "ita",
         "mediatype": "texts",
         "publisher": "Milano : dalla tipografia di Gio. Silvestri, 1846",
-        "title": "Trattato del magnetismo e della elettricit\u00e0 / dell'ab. Francesco Zantedeschi Vol. 2",
+        "title": "Trattato del magnetismo e della elettricitÃ  / dell'ab. Francesco Zantedeschi Vol. 2",
         "type": "Monografia"
     },
     {
         "creator": "Zantedeschi, Francesco",
         "date": "1846",
+        "description": "",
         "identifier": "TO01187602_TO0324_73660_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4674,6 +5260,7 @@
     {
         "creator": "Beranger, J.",
         "date": "1847",
+        "description": "",
         "identifier": "TO01167385_TO0324_65716_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -4684,16 +5271,18 @@
     {
         "creator": "Zantedeschi, Francesco",
         "date": "1846",
+        "description": "",
         "identifier": "UM10085458_TO0324_73651_000001",
         "language": "ita",
         "mediatype": "texts",
         "publisher": "Milano : dalla tipografia di Gio. Silvestri, 1846",
-        "title": "Trattato del magnetismo e della elettricit\u00e0 / dell'ab. Francesco Zantedeschi Vol. 1",
+        "title": "Trattato del magnetismo e della elettricitÃ  / dell'ab. Francesco Zantedeschi Vol. 1",
         "type": "Monografia"
     },
     {
         "creator": "Zantedeschi, Francesco",
         "date": "1846",
+        "description": "",
         "identifier": "TO01189896_TO0324_74546_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4704,6 +5293,7 @@
     {
         "creator": "Maximilian Alexander Philipp [principe di Wied-Neuwied]",
         "date": "1821",
+        "description": "",
         "identifier": "TO0E036450_TO0324_PNI-589_000001",
         "language": "fre",
         "mediatype": "texts",
@@ -4714,6 +5304,7 @@
     {
         "creator": "Maximilian Alexander Philipp [principe di Wied-Neuwied]",
         "date": "1822",
+        "description": "",
         "identifier": "TO0E111722_TO0324_PNI-22000_000004",
         "language": "fre",
         "mediatype": "texts",
@@ -4724,6 +5315,7 @@
     {
         "creator": "Loys de Cheseaux, Jean Philippe : de",
         "date": "1777",
+        "description": "",
         "identifier": "TO0E106362_TO0324_PNI-18304_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -4734,6 +5326,7 @@
     {
         "creator": "Maximilian Alexander Philipp [principe di Wied-Neuwied]",
         "date": "1822",
+        "description": "",
         "identifier": "TO0E036453_TO0324_PNI-591_000003",
         "language": "fre",
         "mediatype": "texts",
@@ -4744,6 +5337,7 @@
     {
         "creator": "Maximilian Alexander Philipp [principe di Wied-Neuwied]",
         "date": "1821",
+        "description": "",
         "identifier": "TO0E036452_TO0324_PNI-590_000002",
         "language": "fre",
         "mediatype": "texts",
@@ -4754,6 +5348,7 @@
     {
         "creator": "Fresenius, Carl Remigius",
         "date": "1845",
+        "description": "",
         "identifier": "SBL0402324_TO0324_88809_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4764,6 +5359,7 @@
     {
         "creator": "Beccaria, Giambatista",
         "date": "1772",
+        "description": "",
         "identifier": "TO0E000864_TO0324_PNI-195_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -4774,6 +5370,7 @@
     {
         "creator": "Garcia Ventanas, Francisco",
         "date": "1641",
+        "description": "",
         "identifier": "CFIE011642_TO0324_PNI-17329_000000",
         "language": "spa",
         "mediatype": "texts",
@@ -4783,34 +5380,41 @@
     },
     {
         "creator": "Parkes, Samuel",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "TO0E011670_TO0324_PNI-17875_000001",
         "language": "ita",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Catechismo chimico di Samuele Parkes traduzione fatta sulla settima edizione inglese con note di Giovanni Pozzi ... Due volumi divisi in quattro parti con figure Vol. 1",
         "type": "Monografia"
     },
     {
         "creator": "Parkes, Samuel",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "TO0E011671_TO0324_PNI-17876_000002",
         "language": "ita",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Catechismo chimico di Samuele Parkes traduzione fatta sulla settima edizione inglese con note di Giovanni Pozzi ... Due volumi divisi in quattro parti con figure Vol. 2",
         "type": "Monografia"
     },
     {
         "creator": "Revelli, Filippo Antonio",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "CFIE009954_TO0324_PNI-16521_000002",
         "language": "ita",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Elementi dell'aritmetica universale e della geometria piana e solida di Filippo Antonio Revelli ... Parte 1.[-2.] Vol. 2",
         "type": "Monografia"
     },
     {
         "creator": "Saraceno, Vittorio",
         "date": "1782",
+        "description": "",
         "identifier": "TO0E075947_TO0324_PNI-11191_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4821,26 +5425,29 @@
     {
         "creator": "Plana, Giovanni",
         "date": "1832",
+        "description": "",
         "identifier": "TO01230820_TO0324_87838_000001",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : Imprimerie royale, 1832",
-        "title": "Th\u00e9orie du mouvement de la lune / par Jean Plana Vol. 1",
+        "title": "ThÃ©orie du mouvement de la lune / par Jean Plana Vol. 1",
         "type": "Monografia"
     },
     {
         "creator": "Plana, Giovanni",
         "date": "1832",
+        "description": "",
         "identifier": "TO01230826_TO0324_87840_000003",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : Imprimerie royale, 1832",
-        "title": "Th\u00e9orie du mouvement de la lune / par Jean Plana Vol. 3",
+        "title": "ThÃ©orie du mouvement de la lune / par Jean Plana Vol. 3",
         "type": "Monografia"
     },
     {
         "creator": "Saraceno, Vittorio",
         "date": "1782",
+        "description": "",
         "identifier": "TO0E002009_TO0324_PNI-19221_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4851,16 +5458,18 @@
     {
         "creator": "Plana, Giovanni",
         "date": "1832",
+        "description": "",
         "identifier": "TO01230823_TO0324_87839_000002",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Turin : Imprimerie royale, 1832",
-        "title": "Th\u00e9orie du mouvement de la lune / par Jean Plana Vol. 2",
+        "title": "ThÃ©orie du mouvement de la lune / par Jean Plana Vol. 2",
         "type": "Monografia"
     },
     {
         "creator": "Saraceno, Vittorio",
         "date": "1776",
+        "description": "",
         "identifier": "TO0E001367_TO0324_PNI-19223_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4870,15 +5479,19 @@
     },
     {
         "creator": "Revelli, Filippo Antonio",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "CFIE009953_TO0324_PNI-16520_000001",
         "language": "ita",
         "mediatype": "texts",
+        "publisher": "",
         "title": "Elementi dell'aritmetica universale e della geometria piana e solida di Filippo Antonio Revelli ... Parte 1.[-2.] Vol. 1",
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1788",
+        "description": "",
         "identifier": "TO0E093662_TO0324_PNI-14824_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4889,6 +5502,7 @@
     {
         "creator": "Scarella, Giovanni Battista",
         "date": "1766",
+        "description": "",
         "identifier": "UBOE005599_TO0324_PNI-3236_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -4899,6 +5513,7 @@
     {
         "creator": "Poleni, Giovanni",
         "date": "1739",
+        "description": "",
         "identifier": "TO0E007273_TO0324_PNI-15341_000000",
         "language": "lat",
         "mediatype": "texts",
@@ -4909,6 +5524,7 @@
     {
         "creator": "Porro, Ignazio",
         "date": "1858",
+        "description": "",
         "identifier": "TO00717265_TO0324_46996_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -4917,7 +5533,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000035",
         "language": "ita",
         "mediatype": "texts",
@@ -4926,7 +5544,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -4935,7 +5555,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -4944,7 +5566,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1792",
+        "description": "",
         "identifier": "TO00178320_TO0324_958_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -4953,7 +5577,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -4962,7 +5588,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000024",
         "language": "ita",
         "mediatype": "texts",
@@ -4971,7 +5599,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000032",
         "language": "ita",
         "mediatype": "texts",
@@ -4980,7 +5610,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1792",
+        "description": "",
         "identifier": "TO00178320_TO0324_958_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -4989,7 +5621,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -4998,7 +5632,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -5007,7 +5643,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -5016,7 +5654,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -5025,7 +5665,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000022",
         "language": "ita",
         "mediatype": "texts",
@@ -5034,7 +5676,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -5043,7 +5687,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000023",
         "language": "ita",
         "mediatype": "texts",
@@ -5052,7 +5698,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000013",
         "language": "ita",
         "mediatype": "texts",
@@ -5061,7 +5709,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000019",
         "language": "ita",
         "mediatype": "texts",
@@ -5070,7 +5720,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -5079,7 +5731,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000018",
         "language": "ita",
         "mediatype": "texts",
@@ -5088,7 +5742,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1792",
+        "description": "",
         "identifier": "TO00178320_TO0324_958_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -5097,7 +5753,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000036",
         "language": "ita",
         "mediatype": "texts",
@@ -5106,7 +5764,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000020",
         "language": "ita",
         "mediatype": "texts",
@@ -5115,7 +5775,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -5124,7 +5786,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1792",
+        "description": "",
         "identifier": "TO00178320_TO0324_958_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -5133,7 +5797,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -5142,7 +5808,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000031",
         "language": "ita",
         "mediatype": "texts",
@@ -5151,7 +5819,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1792",
+        "description": "",
         "identifier": "TO00178320_TO0324_958_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -5160,7 +5830,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -5169,7 +5841,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000020",
         "language": "ita",
         "mediatype": "texts",
@@ -5178,7 +5852,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1792",
+        "description": "",
         "identifier": "TO00178320_TO0324_958_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -5187,7 +5863,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000033",
         "language": "ita",
         "mediatype": "texts",
@@ -5196,7 +5874,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -5205,7 +5885,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -5214,7 +5896,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000021",
         "language": "ita",
         "mediatype": "texts",
@@ -5223,7 +5907,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000017",
         "language": "ita",
         "mediatype": "texts",
@@ -5232,7 +5918,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -5241,7 +5929,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -5250,7 +5940,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1792",
+        "description": "",
         "identifier": "TO00178320_TO0324_958_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -5259,7 +5951,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -5268,7 +5962,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1792",
+        "description": "",
         "identifier": "TO00178320_TO0324_958_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -5277,7 +5973,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -5286,7 +5984,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -5295,7 +5995,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000034",
         "language": "ita",
         "mediatype": "texts",
@@ -5304,7 +6006,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1787",
+        "description": "",
         "identifier": "TO00178340_TO0324_965_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -5313,7 +6017,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -5322,7 +6028,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000014",
         "language": "ita",
         "mediatype": "texts",
@@ -5331,7 +6039,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000016",
         "language": "ita",
         "mediatype": "texts",
@@ -5340,7 +6050,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000015",
         "language": "ita",
         "mediatype": "texts",
@@ -5349,7 +6061,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000012",
         "language": "ita",
         "mediatype": "texts",
@@ -5358,7 +6072,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO00178341_TO0324_966_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -5384,7 +6100,7 @@
         "identifier": "TO0E112344_TO0324_PNI-20588_000000",
         "language": "fre",
         "mediatype": "texts",
-        "publisher": "A Paris : chez Bachelier, Libraire, quai des Augustins, n\u00b0 55",
+        "publisher": "A Paris : chez Bachelier, Libraire, quai des Augustins, nÂ° 55",
         "title": "Traite de statique, par J.-B. Labey, docteur es-sciences de l'Universite Imperiale, Instituteur a l'Ecole Imperiale ...",
         "type": "Monografia"
     },
@@ -5426,6 +6142,7 @@
         "date": "1790",
         "description": "Leg. in cartone",
         "identifier": "PUVE011091_TO0324_PNI-14496_000002",
+        "language": "",
         "mediatype": "texts",
         "publisher": "Birmingham : printed by Thomas Pearson and sold by J.Johnson, St. Paul's church-yard, London, 1790",
         "title": "Experiments and observations on different kinds of air and other branches of natural philosophy connected with the subject...  by Joseph Priestley. Vol. 2",
@@ -5436,13 +6153,14 @@
         "date": "1790",
         "description": "Leg. in cartone",
         "identifier": "PUVE011092_TO0324_PNI-14494_000003",
+        "language": "",
         "mediatype": "texts",
         "publisher": "Birmingham : printed by Thomas Pearson and sold by J.Johnson, St. Paul's church-yard, London, 1790",
         "title": "Experiments and observations on different kinds of air and other branches of natural philosophy connected with the subject...  by Joseph Priestley vol. 3",
         "type": "Monografia"
     },
     {
-        "creator": "Lexell, Anders Johan <1740-1784>",
+        "creator": "Lexell, Anders Johan",
         "date": "1772",
         "description": "Leg. in cartone.",
         "identifier": "TO0E039822_TO0324_PNI-1731_000000",
@@ -5464,14 +6182,14 @@
         "type": "Monografia"
     },
     {
-        "creator": "Lacroix, Sylvestre Francois<1765-1843>",
+        "creator": "Lacroix, Sylvestre Francois",
         "date": "1822",
         "description": "Leg. in mezza pelle.",
         "identifier": "TO0E033284_TO0324_PNI-2593_000000",
         "language": "fre",
         "mediatype": "texts",
         "publisher": "Paris : Bachelier ..., 1822",
-        "title": "Trait\u00e9 elementaire du calcul des probabilites; par S. F. Lacroix",
+        "title": "TraitÃ© elementaire du calcul des probabilites; par S. F. Lacroix",
         "type": "Monografia"
     },
     {
@@ -5512,13 +6230,14 @@
         "date": "1790",
         "description": "Leg. in cartone",
         "identifier": "PUVE011090_TO0324_PNI-14495_000001",
+        "language": "",
         "mediatype": "texts",
         "publisher": "Birmingham : printed by Thomas Pearson and sold by J.Johnson, St. Paul's church-yard, London, 1790",
         "title": "Experiments and observations on different kinds of air and other branches of natural philosophy connected with the subject...  by Joseph Priestley vol. 1",
         "type": "Monografia"
     },
     {
-        "creator": "Lacroix, Sylvestre Francois <1765-1843>",
+        "creator": "Lacroix, Sylvestre Francois",
         "date": "1813",
         "description": "Leg. in mezza pelle con punte.",
         "identifier": "TO0E041486_TO0324_PNI-2612_000000",
@@ -5531,6 +6250,7 @@
     {
         "creator": "Zanotti, Eustachio",
         "date": "1779",
+        "description": "",
         "identifier": "UBOE000097_TO0324_PNI-18430_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -5541,6 +6261,7 @@
     {
         "creator": "Vassalli Eandi, Anton Maria",
         "date": "1802",
+        "description": "",
         "identifier": "TO0E067157_TO0324_PNI-17915_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -5549,7 +6270,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO0E080533_TO0324_PRE-68300_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -5560,6 +6283,7 @@
     {
         "creator": "Vassalli Eandi, Anton Maria",
         "date": "1786",
+        "description": "",
         "identifier": "TO0E003541_TO0324_PNI-12989_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -5570,6 +6294,7 @@
     {
         "creator": "Morgan, William <1750-1833>",
         "date": "1788",
+        "description": "",
         "identifier": "TO0E086201_TO0324_PNI-13046_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -5578,7 +6303,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1814",
+        "description": "",
         "identifier": "TO0E076897_TO0324_PNI-11657_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -5587,7 +6314,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1814",
+        "description": "",
         "identifier": "TO0E041810_TO0324_PNI-2788_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -5596,7 +6325,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1779",
+        "description": "",
         "identifier": "UBOE009138_TO0324_PNI-12291_000000",
         "language": "ita",
         "mediatype": "texts",
@@ -5607,6 +6338,7 @@
     {
         "creator": "Vassalli, Anton Maria <1761-1825>",
         "date": "1789",
+        "description": "",
         "identifier": "TO0E021516_TO0324_PNI-14298_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -5616,16 +6348,19 @@
     },
     {
         "creator": "Vassalli Eandi, Anton Maria",
-        "date": "    ",
+        "date": "",
+        "description": "",
         "identifier": "TO0E098678_TO0324_PNI-16422_000000",
         "language": "fre",
         "mediatype": "texts",
-        "title": "M\u00e9moire historique de l'Acad\u00e9mie des sciences de Turin, depuis 1792 jusqu'a 1805. Par Antoine Marie Vassalli-Eandi, secretaire",
+        "publisher": "",
+        "title": "MÃ©moire historique de l'AcadÃ©mie des sciences de Turin, depuis 1792 jusqu'a 1805. Par Antoine Marie Vassalli-Eandi, secretaire",
         "type": "Monografia"
     },
     {
         "creator": "Valperga di Caluso, Tommaso",
         "date": "1811",
+        "description": "",
         "identifier": "TO0E000276_TO0324_PNI-13138_000000",
         "language": "fre",
         "mediatype": "texts",
@@ -5636,15 +6371,18 @@
     {
         "creator": "Tarizzo, Antonio Francesco",
         "date": "1707",
+        "description": "",
         "identifier": "TO0E016174_TO0324_PNI-11548_000000",
         "language": "ita",
         "mediatype": "texts",
         "publisher": "In Torino : per Gio. Battista Zappata stampatore dell'illustriss. citta si vendono nella bottega del libraro Marone, 1707",
-        "title": "Ragguaglio istorico dell' assedio, difesa, e liberazione della citt\u00e0 di Torino. Opera di d. Francesco Antonio Tarizzo cittadino torinese ...",
+        "title": "Ragguaglio istorico dell' assedio, difesa, e liberazione della cittÃ  di Torino. Opera di d. Francesco Antonio Tarizzo cittadino torinese ...",
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1824",
+        "description": "",
         "identifier": "TO0E080534_TO0324_PRE-68301_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -5653,7 +6391,9 @@
         "type": "Monografia"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -5662,7 +6402,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -5671,7 +6413,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000030",
         "language": "ita",
         "mediatype": "texts",
@@ -5680,7 +6424,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -5689,7 +6435,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000032",
         "language": "ita",
         "mediatype": "texts",
@@ -5698,7 +6446,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -5707,7 +6457,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000024",
         "language": "ita",
         "mediatype": "texts",
@@ -5716,7 +6468,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -5725,7 +6479,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -5734,7 +6490,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -5743,7 +6501,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -5752,7 +6512,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -5761,7 +6523,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000012",
         "language": "ita",
         "mediatype": "texts",
@@ -5770,7 +6534,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000035",
         "language": "ita",
         "mediatype": "texts",
@@ -5779,7 +6545,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000027",
         "language": "ita",
         "mediatype": "texts",
@@ -5788,7 +6556,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -5797,7 +6567,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000017",
         "language": "ita",
         "mediatype": "texts",
@@ -5806,7 +6578,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000033",
         "language": "ita",
         "mediatype": "texts",
@@ -5815,7 +6589,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -5824,7 +6600,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000012",
         "language": "ita",
         "mediatype": "texts",
@@ -5833,7 +6611,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -5842,7 +6622,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -5851,7 +6633,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -5860,7 +6644,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -5869,7 +6655,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -5878,7 +6666,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -5887,7 +6677,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000019",
         "language": "ita",
         "mediatype": "texts",
@@ -5896,7 +6688,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000014",
         "language": "ita",
         "mediatype": "texts",
@@ -5905,7 +6699,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000028",
         "language": "ita",
         "mediatype": "texts",
@@ -5914,7 +6710,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000016",
         "language": "ita",
         "mediatype": "texts",
@@ -5923,7 +6721,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000020",
         "language": "ita",
         "mediatype": "texts",
@@ -5932,7 +6732,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000022",
         "language": "ita",
         "mediatype": "texts",
@@ -5941,7 +6743,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -5950,7 +6754,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -5959,7 +6765,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000021",
         "language": "ita",
         "mediatype": "texts",
@@ -5968,7 +6776,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000007",
         "language": "ita",
         "mediatype": "texts",
@@ -5977,7 +6787,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000015",
         "language": "ita",
         "mediatype": "texts",
@@ -5986,7 +6798,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000011",
         "language": "ita",
         "mediatype": "texts",
@@ -5995,7 +6809,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -6004,7 +6820,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000018",
         "language": "ita",
         "mediatype": "texts",
@@ -6013,7 +6831,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -6022,7 +6842,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000034",
         "language": "ita",
         "mediatype": "texts",
@@ -6031,7 +6853,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000010",
         "language": "ita",
         "mediatype": "texts",
@@ -6040,7 +6864,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000013",
         "language": "ita",
         "mediatype": "texts",
@@ -6049,7 +6875,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000012",
         "language": "ita",
         "mediatype": "texts",
@@ -6058,7 +6886,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000014",
         "language": "ita",
         "mediatype": "texts",
@@ -6067,7 +6897,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000013",
         "language": "ita",
         "mediatype": "texts",
@@ -6076,7 +6908,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -6085,7 +6919,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000015",
         "language": "ita",
         "mediatype": "texts",
@@ -6094,7 +6930,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1789",
+        "description": "",
         "identifier": "TO00185270_TO0324_1855_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -6103,7 +6941,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -6112,7 +6952,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000026",
         "language": "ita",
         "mediatype": "texts",
@@ -6121,7 +6963,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000023",
         "language": "ita",
         "mediatype": "texts",
@@ -6130,7 +6974,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -6139,7 +6985,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -6148,7 +6996,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000029",
         "language": "ita",
         "mediatype": "texts",
@@ -6157,7 +7007,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000016",
         "language": "ita",
         "mediatype": "texts",
@@ -6166,7 +7018,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000031",
         "language": "ita",
         "mediatype": "texts",
@@ -6175,7 +7029,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000009",
         "language": "ita",
         "mediatype": "texts",
@@ -6184,7 +7040,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -6193,7 +7051,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000025",
         "language": "ita",
         "mediatype": "texts",
@@ -6202,7 +7062,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1775",
+        "description": "",
         "identifier": "TO00194803_TO0324_3372_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -6211,7 +7073,9 @@
         "type": "Periodico"
     },
     {
+        "creator": "",
         "date": "1790",
+        "description": "",
         "identifier": "TO01220739_TO0324_88812_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -6222,6 +7086,7 @@
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1847",
+        "description": "",
         "identifier": "TO00602760_TO0324_63428_000004",
         "language": "ita",
         "mediatype": "texts",
@@ -6232,6 +7097,7 @@
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1848",
+        "description": "",
         "identifier": "TO00602761_TO0324_63430_000005",
         "language": "ita",
         "mediatype": "texts",
@@ -6242,6 +7108,7 @@
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1845",
+        "description": "",
         "identifier": "TO00602499_TO0324_63426_000002",
         "language": "ita",
         "mediatype": "texts",
@@ -6252,6 +7119,7 @@
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1849",
+        "description": "",
         "identifier": "TO00602762_TO0324_63433_000006",
         "language": "ita",
         "mediatype": "texts",
@@ -6262,6 +7130,7 @@
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1850",
+        "description": "",
         "identifier": "TO00602764_TO0324_63436_000008",
         "language": "ita",
         "mediatype": "texts",
@@ -6272,6 +7141,7 @@
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1845",
+        "description": "",
         "identifier": "TO00602501_TO0324_63427_000003",
         "language": "ita",
         "mediatype": "texts",
@@ -6282,6 +7152,7 @@
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1844",
+        "description": "",
         "identifier": "TO00602497_TO0324_63425_000001",
         "language": "ita",
         "mediatype": "texts",
@@ -6292,6 +7163,7 @@
     {
         "creator": "Gerdil, Giacinto Sigismondo",
         "date": "1850",
+        "description": "",
         "identifier": "TO00602763_TO0324_63434_000007",
         "language": "ita",
         "mediatype": "texts",

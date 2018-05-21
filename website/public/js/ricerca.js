@@ -13,6 +13,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
   }
 };
 
+
 function beautyFilter(value) {
   return value.replace("creator=", "Autore: ")
     .replace("date=", "Data: ")
@@ -45,6 +46,12 @@ $.getJSON("/search?q=" + query, function(resData) {
     facetsLinguaArray: resData.data.aggregations.language.buckets,
   }
 
+  if (decodeURIComponent(window.location.search.substring(1)).split('&').indexOf('q=') > -1) {
+    obj.hasSearch = false;
+  } else {
+    obj.hasSearch = true;
+  }
+
   obj.currentQuery = decodeURIComponent(window.location.search).replace("?q=", "");
   obj.currentFacetQuery = decodeURIComponent(window.location.search).replace("?q=", "").replace(/&start=[0-9]{1,3}/, "&start=1");
   for (var i = 0; i < obj.instances.length; i++) {
@@ -67,6 +74,7 @@ $.getJSON("/search?q=" + query, function(resData) {
   }
 
   obj.facetsAuth = [];
+
   for (var i = 0; i < obj.facetsAuthArray.length; i++) {
     var fa = {};
     fa.title = obj.facetsAuthArray[i].key;
@@ -76,6 +84,7 @@ $.getJSON("/search?q=" + query, function(resData) {
     }
     obj.facetsAuth.push(fa);
   }
+
   obj.facetsData = [];
   for (var i = 0; i < obj.facetsDataArray.length; i++) {
     if (obj.facetsDataArray[i].key !== '9999' && obj.facetsDataArray[i].key !== "    ") {
@@ -87,8 +96,8 @@ $.getJSON("/search?q=" + query, function(resData) {
       }
       obj.facetsData.push(fa);
     }
-
   }
+
   obj.facetsLingua = [];
   for (var i = 0; i < obj.facetsLinguaArray.length; i++) {
     var fa = {};
@@ -127,7 +136,7 @@ $.getJSON("/search?q=" + query, function(resData) {
       first: 'Inizio',
       prev: '',
       next: '',
-      last: '',
+      last: 'Fine',
       onPageClick: function(event, page) {
         if (obj.currentQuery.includes('&start=')) {
           document.location.href = "/?q=" + obj.currentQuery.replace(/&start=[^&]+/, "&start=" + page)
@@ -160,3 +169,10 @@ $(document).on("keypress", "#search", function(e) {
 $(document).on("click", "#clearsearch", function(e) {
     document.location.href = "/?q=&start=1";
 });
+
+console.log(getUrlParameter('q'))
+if (decodeURIComponent(window.location.search.substring(1)).split('&').indexOf('q=') > -1 ) {
+    console.log('remove')
+    $('#autoreFacet').remove();
+    $('#dataFacet').remove();
+}
