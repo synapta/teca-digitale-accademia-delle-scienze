@@ -1,12 +1,12 @@
  # -*- coding: utf-8 -*-
 
-from StringIO import StringIO    
+from StringIO import StringIO
 import csv
 import json
 import requests
 
 book_URL = "https://docs.google.com/spreadsheets/d/13u2k8_MVktUBamh-UZec3ylDnXQfQIp7HZT8AgB0MOU/export?format=csv&id=13u2k8_MVktUBamh-UZec3ylDnXQfQIp7HZT8AgB0MOU&gid=715455760"
-file_path = './website/public/data/book.json'
+file_path = '/root/website/public/data/book.json'
 
 with open(file_path, 'r' ) as old_file:
     old_list = json.load(old_file)
