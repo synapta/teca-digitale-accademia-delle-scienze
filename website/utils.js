@@ -2,8 +2,12 @@ var fs = require('fs');
 var data = JSON.parse(fs.readFileSync('./public/data/book.json', 'utf8'))
 var itemsjs = require('itemsjs')(data, {
   sortings: {
-    name_asc: {
+    title_asc: {
       field: 'title',
+      order: 'asc'
+    },
+    creator_asc: {
+      field: 'date',
       order: 'asc'
     }
   },
@@ -42,7 +46,7 @@ exports.searchItem = function(request) {
   return itemsjs.search({
     per_page: 10,
     page: request.query.start,
-    sort: 'name_asc',
+    sort: (request.query.q !== "") ? 'title_asc' : 'creator_asc',
     // full text search
     query: request.query.q,
     filters: filters
@@ -52,7 +56,7 @@ exports.searchItem = function(request) {
 exports.topItem = function(request) {
   return itemsjs.aggregation({
     per_page: 1,
-    sort: 'name_asc',
+    sort: (request.query.q !== "") ? 'name_asc' : 'creator_asc',
     // full text search
     query: request.query.q,
   })
