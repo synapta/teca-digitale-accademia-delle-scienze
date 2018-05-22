@@ -2,7 +2,7 @@
 
 git pull
 
-docker rm teca-accademia
+docker rm -f teca-accademia
 docker rmi teca-accademia
 
 docker build -t teca-accademia .

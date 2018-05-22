@@ -8,4 +8,6 @@ COPY ./website /root/
 
 WORKDIR /root/website
 
+RUN cd /root/ && npm install
+
 CMD [ "npm", "start" ]
