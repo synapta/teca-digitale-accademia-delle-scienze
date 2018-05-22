@@ -22,10 +22,3 @@ $(window).resize(function() {
   $("#iframe-container").html("");
   $("#iframe-container").html(getIAFrame(id, getHeight(), getWidth()));
 });
-
-var iframe = document.getElementById('frame');
-var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
-
-$(document).ready(function() {
-    $("#iframe").contents().find('logo').html('stocazzo')
-});

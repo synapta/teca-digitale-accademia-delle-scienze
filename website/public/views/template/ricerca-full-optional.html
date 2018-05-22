@@ -1,6 +1,6 @@
 <div id="wok-main-panel">
   <div id="wok-main-panel-content" class="clearfix">
-    <div id="column-left" class="column">
+    <div id="column-left" class="column hidden-phone">
       <a href="/?q=&start=1">
         <h1 data-wp-edit="Title" style="text-align: left; margin-top: 1em; font-size: 24px; font-family: Georgia Pro;">Teca Digitale</h1> </a>
 
@@ -26,7 +26,7 @@
       </div>
       {{/hasSearch}} {{#hasSearch}}
       <div class="row">
-        <h2 data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom" style="font-weight: 400;" class="section-header">Data</h2>
+        <h2 data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom" style="font-weight: 400;" class="section-header">Data  <i class="fas fa-question-circle"></i> </h2>
         <hr class="facet-hr" />
         <ul class="facet-list">
           {{#facetsData}}
@@ -48,7 +48,7 @@
     </div>
     <div id="column-right" class="column">
 
-      <div style="margin-bottom:20px; width: 100% " class="container">
+      <div style="width: 100% " class="search-container">
         <section id="input-append" class="row-fluid">
           <form id="main-search" role="search" autocomplete="off">
             <div class="input-field">
@@ -73,12 +73,18 @@
       <a href="/book/{{identifier}}" title="{{label}}" class="nodeca">
         <div class="card opera-card">
           <div class="card-content white-text" style="overflow: auto;">
-            <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
+            <div class="archive-div hidden-phone">
+              <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
+            </div>
             <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span> {{author}}
             <p style=" font-size:14px"> {{date}}</p>
             <p style=" font-size:14px"> {{type}}</p>
             <p style=" font-size:10px"> {{identifier}}</p>
+            <div class="archive-div hidden-desktop">
+              <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
+            </div>
           </div>
+
         </div>
       </a>
       {{/instances}}

@@ -170,6 +170,12 @@ $(document).on("click", "#clearsearch", function(e) {
     document.location.href = "/?q=&start=1";
 });
 
+
+$(document).on("click", ".arrow",  function(e) {
+    $('.mobile-arrow').toggleClass('active');
+    $('#main-menu').toggleClass('active')
+});
+
 console.log(getUrlParameter('q'))
 if (decodeURIComponent(window.location.search.substring(1)).split('&').indexOf('q=') > -1 ) {
     console.log('remove')
