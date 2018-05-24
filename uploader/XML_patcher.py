@@ -79,6 +79,7 @@ for dir in os.listdir(basedir):
                 res = bookUL(dir, file_path)
             except Exception as ex:
                 print(ex)
+                continue
             break
         code = res[0].status_code
 
