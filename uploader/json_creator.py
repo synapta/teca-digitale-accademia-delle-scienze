@@ -19,7 +19,7 @@ if os.path.exists('./book.csv'):
 else:
     done = []
 
-basedir = "/data/davide/teca1/storage/Asto/"
+basedir = "/data/accademia/teca/storage/Asto/"
 namespace = '{http://www.iccu.sbn.it/metaAG1.pdf}'
 purl = '{http://purl.org/dc/elements/1.1/}'
 counter = 0

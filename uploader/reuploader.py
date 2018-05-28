@@ -12,7 +12,7 @@ import requests
 import glob
 import time
 
-basedir = "/media/davide/Volume/ASTO/"
+basedir = "/data/accademia/teca/storage/Asto/"
 namespace = '{http://www.iccu.sbn.it/metaAG1.pdf}'
 purl = '{http://purl.org/dc/elements/1.1/}'
 
@@ -22,7 +22,7 @@ data = []
 for directory in os.listdir(basedir):
     print directory
     for element in os.listdir(basedir + '/' + directory):
-        if ".xml" == element[-4:] and element.replace(".xml", ""):
+        if ".xml" == element[-4:] and element.replace(".xml", "") and 'Lotto' in directory:
             done = False
             while not done:
                 try:
@@ -82,7 +82,7 @@ for directory in os.listdir(basedir):
     
                     bookObj['mediatype'] = 'texts'
     
-                zip_exit_code = os.system('zip -r ' + identifier + '_images.zip ' + basedir + directory.replace(' ', '\ ') +  '/' + element.replace(".xml", "") + '/Archivio/*')
+                zip_exit_code = os.system('zip -r ' + identifier + '_images.zip ' + basedir + directory.replace(' ', '\ ') +  '/' + element.replace(".xml", "") + '/Internet/*')
                 #sys.exit(0)
                 if zip_exit_code != 0:
     
