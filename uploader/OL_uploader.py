@@ -1,17 +1,10 @@
-from olclient.openlibrary import OpenLibrary
-from olclient import common
 import pandas as pd
-import pprint
 import json
 import ast
 import re
 
-ol = OpenLibrary()
-
 bookdf = pd.read_csv('book.csv', dtype=str, encoding='utf-8')
 bookdf = bookdf.fillna(value="nan")
-
-authors = {}
 
 for index,row in bookdf.iterrows():
     print("Book",index)
@@ -49,5 +42,5 @@ for index,row in bookdf.iterrows():
             else:
                 OL_toc = OL_toc+"* | "+elem+" | "+number+"\n"
 
-    with open("OL1.csv", "a") as f:
+    with open("OL.csv", "a") as f:
         f.write(str(index)+","+row['lotto']+","+id+",https://archive.org/stream/"+id+",\""+title+"\",\""+creator+"\",\""+publisher+"\","+year+",\""+str(OL_toc)+"\"\n")
