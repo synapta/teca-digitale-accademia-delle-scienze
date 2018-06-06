@@ -8,6 +8,6 @@ COPY ./website /root/
 
 WORKDIR /root/website
 
-RUN cd /root/ && npm install
+RUN cd /root/ && npm install && npm install -g csvtojson
 
 CMD [ "npm", "start" ]

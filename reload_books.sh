@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cd /root/ && python3 updateList.py && killall node
+cd /root/public/data/ && curl 'https://docs.google.com/spreadsheets/d/13u2k8_MVktUBamh-UZec3ylDnXQfQIp7HZT8AgB0MOU/export?format=csv&id=13u2k8_MVktUBamh-UZec3ylDnXQfQIp7HZT8AgB0MOU&gid=715455760' > book.csv && csvtojson book.csv > book.json && killall node
