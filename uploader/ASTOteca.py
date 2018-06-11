@@ -14,6 +14,12 @@ def parseXML(file_path):
     tree = ET.parse(file_path)
     root = tree.getroot()
 
+    bookObj['type'] = root.find('./' + namespace + 'bib').attrib['level']
+    if bookObj['type'] == 'm':
+        bookObj['type']  = 'Monografia'
+    if bookObj['type'] == 's':
+        bookObj['type']  = 'Periodico'
+
     for child in root.find(namespace+'bib'):
         if 'identifier' in child.tag:
             bookObj['identifier'] = os.path.basename(file_path).replace(".xml", "")
