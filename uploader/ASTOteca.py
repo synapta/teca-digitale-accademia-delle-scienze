@@ -2,6 +2,7 @@ import pandas as pd
 import timeout
 import os
 import xml.etree.ElementTree as ET
+import re
 
 namespace = '{http://www.iccu.sbn.it/metaAG1.pdf}'
 w3cns = '{http://www.w3.org/TR/xlink}'
@@ -14,12 +15,12 @@ def parseXML(file_path):
     root = tree.getroot()
 
     for child in root.find(namespace+'bib'):
-        """if 'identifier' in child.tag:
-            bookObj['identifier'] = element.replace(".xml", "")"""
+        if 'identifier' in child.tag:
+            bookObj['identifier'] = os.path.basename(file_path).replace(".xml", "")
         if 'title' in child.tag:
             bookObj['title'] = child.text
         elif 'creator'in child.tag:
-            bookObj['creator'] = child.text
+            bookObj['creator'] = re.sub(r"<.*>", "", child.text)
         elif 'publisher' in child.tag:
             bookObj['publisher'] = child.text
         elif 'description' in child.tag:
@@ -46,17 +47,25 @@ def parseXML(file_path):
         for element in stru_elem.find(namespace+'element'):
             for start in element.iter(namespace+'start'):
                 toc["toc"].append({"nomenclature":stru_elem.find(namespace+'nomenclature').text,"start":start.get('sequence_number')})
-    bookObj['toc'] = toc
+
+    toc = toc["toc"]
+    print toc
+    OL_toc = ""
+    if len(toc) > 0:
+        for elem in toc:
+            number = elem['start']
+            title = elem['nomenclature']
+            if OL_toc == "":
+                OL_toc = "* | "+title+" | "+number+"\n"
+            else:
+                OL_toc = OL_toc+"* | "+title+" | "+number+"\n"
+
+    bookObj['toc'] = OL_toc
 
     #cover image
     elem = root.find(namespace+'img')
     if elem.find(namespace+'sequence_number').text == "1":
         fileobj = elem.find(namespace+'file')
         bookObj["cover_img"] = fileobj.attrib[w3cns+'href']
+    print bookObj
     return bookObj
-
-    def OL_upload():
-        pass
-
-    del OL_bulk_upload():
-pass

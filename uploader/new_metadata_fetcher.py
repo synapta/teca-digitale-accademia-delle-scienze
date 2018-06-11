@@ -12,7 +12,7 @@ if os.path.exists('./book.csv'):
 else:
     done = []
 
-basedir = "DataAccademia/Asto"
+basedir = sys.argv[1]
 
 data = []
 
@@ -27,10 +27,10 @@ for directory in os.listdir(basedir):
 
             data.append(bookInfo)
 
+
 thisbookdf = pd.DataFrame(data)
 if not os.path.exists("./book.csv"):
     bookdf = thisbookdf
 else:
     bookdf = bookdf.append(thisbookdf, ignore_index=True)
-bookdf.to_csv('book.csv', index=False, encoding='utf-8')
-
+bookdf.to_csv('book2.csv', index=False, encoding='utf-8')
