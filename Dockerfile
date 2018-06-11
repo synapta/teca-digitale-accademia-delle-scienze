@@ -9,5 +9,6 @@ COPY ./website /root/
 WORKDIR /root/website
 
 RUN cd /root/ && npm install && npm install -g csvtojson
+RUN chmod +x /etc/cron.daily/reload_books.sh && /etc/cron.daily/reload_books.sh
 
 CMD [ "npm", "start" ]
