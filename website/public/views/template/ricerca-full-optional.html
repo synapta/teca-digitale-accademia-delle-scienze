@@ -1,62 +1,98 @@
-<div id="resultTemplate">
-  <div class="row" style="margin:0">
-    <div class="col s12 m8" style="padding:0 40px 0 0">
+<div id="wok-main-panel">
+  <div id="wok-main-panel-content" class="clearfix">
+    <div id="column-left" class="column hidden-phone">
+      <a href="/?q=&start=1">
+        <h1 data-wp-edit="Title" style="text-align: left; margin-top: 1em; font-size: 24px; font-family: Georgia Pro;">Teca Digitale</h1> </a>
+
+      <div class="row" id="tipologiaFacet">
+        <h2 data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom" style="font-weight: 400;" class="section-header">Tipologia</h2>
+        <hr class="facet-hr" />
+        <ul class="facet-list">
+          {{#facetsType}}
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;type={{type}}">{{type}}</a> <small>({{count}} unità)</small></li>
+          {{/facetsType}}
+        </ul>
+      </div>
+
+      {{#hasSearch}}
+      <div class="row" id="autoreFacet">
+        <h2 style="font-weight: 400;" class="section-header" data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom">Autore</h2>
+        <hr class="facet-hr" />
+        <ul class="facet-list">
+          {{#facetsAuth}}
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;creator={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          {{/facetsAuth}}
+        </ul>
+      </div>
+      {{/hasSearch}} {{#hasSearch}}
+      <div class="row">
+        <h2 data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom" style="font-weight: 400;" class="section-header">Data</i></h2>
+        <hr class="facet-hr" />
+        <ul class="facet-list">
+          {{#facetsData}}
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;date={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          {{/facetsData}}
+        </ul>
+      </div>
+      {{/hasSearch}}
+
+      <div class="row" id="linguaFacet">
+        <h2 data-tooltip="L'ordinamento è fatto per numero di occorrenze." data-tooltip-position="bottom" style="font-weight: 400;" class="section-header">Lingua</h2>
+        <hr class="facet-hr" />
+        <ul class="facet-list">
+          {{#facetsLingua}}
+          <li>⁖ <a href="/?q={{currentFacetQuery}}&amp;language={{title}}">{{title}}</a> <small>({{count}})</small></li>
+          {{/facetsLingua}}
+        </ul>
+      </div>
+    </div>
+    <div id="column-right" class="column">
+
+      <div style="width: 100% " class="search-container">
+        <section id="input-append" class="row-fluid">
+          <form id="main-search" role="search" autocomplete="off">
+            <div class="input-field">
+              <input id="search" type="search" placeholder="Cerca un'opera nella teca...">
+              <label class="label-icon" for="search"><i class="material-icons" style="font-size: 34px; margin-top: -0.1em">search</i></label>
+              <i id="clearsearch" class="material-icons" style="font-size: 3rem; top: 1rem;">close</i>
+            </div>
+          </form>
+        </section>
+      </div>
+
       <div class="row" style="margin-bottom:0">
-        <div class="col s12 m12">
-          <div id="results-number" style="float: left"></div>
-          <div class="pagination-buttons" style="float: right;"></div>
+        <div id="results-number"></div>
+        <div class="pagination-buttons">
+          <ul id="pagination-demo" class="pagination-sm"></ul>
         </div>
       </div>
       <div class="row" style="margin:0">
         <div id="active-filters" style="float:left"></div>
       </div>
-      <br>
-
-      {{#instances}}
-      <a href="https://archive.org/stream/{{identifier}}" title="{{label}}" class="nodeca">
-        <div class="card blue-grey darken-1 opera-card">
-          <div class="card-content white-text">
-            <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span>
-            {{author}}
+      <br> {{#instances}}
+      <a href="/book/{{identifier}}" title="{{label}}" class="nodeca">
+        <div class="card opera-card">
+          <div class="card-content white-text" style="overflow: auto;">
+            <div class="archive-div hidden-phone">
+              <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
+            </div>
+            <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span> {{author}}
             <p style=" font-size:14px"> {{date}}</p>
-            <p style=" font-size:14px"> {{identifier}}</p>
+            <p style=" font-size:14px"> {{type}}</p>
+            <p style=" font-size:10px"> {{identifier}}</p>
+            <div class="archive-div hidden-desktop">
+              <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
+            </div>
           </div>
+
         </div>
       </a>
       {{/instances}}
       <br>
-      <div class="pagination-buttons" style="float: right;"></div>
-    </div>
-    <div id="facets" class="col s12 m4" style="padding-right:0">
-
-      <div class="row" style="margin:0">
-        <h4 style="font-weight: 400;">Autore</h4>
-        <hr class="facet-hr"/>
-        <ul>
-        {{#facetsAuth}}
-          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;author_ss={{id}}">{{title}}</a> <small>({{count}})</small></li>
-        {{/facetsAuth}}
-        </ul>
-      </div>
-
-      <div class="row" style="margin:0">
-        <h4 style="font-weight: 400;">Data</h4>
-        <hr class="facet-hr"/>
-        <ul>
-        {{#facetsData}}
-          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;date_s={{title}}">{{title}}</a> <small>({{count}})</small></li>
-        {{/facetsData}}
-        </ul>
-      </div>
-
-      <div class="row" style="margin:0">
-        <h4 style="font-weight: 400;">Lingua</h4>
-        <hr class="facet-hr"/>
-        <ul>
-        {{#facetsLingua}}
-          <li><a href="/ricerca?q={{currentFacetQuery}}&amp;language_s={{title}}">{{title}}</a> <small>({{count}})</small></li>
-        {{/facetsLingua}}
-        </ul>
+      <div class="row" style="margin-bottom:0">
+        <div class="pagination-buttons">
+          <ul id="sync-pagination-demo" class="pagination-sm"></ul>
+        </div>
       </div>
     </div>
   </div>

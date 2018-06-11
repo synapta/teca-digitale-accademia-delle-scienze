@@ -1,16 +1,23 @@
 var fs = require('fs');
 var data = JSON.parse(fs.readFileSync('./public/data/book.json', 'utf8'))
-console.log(data)
-var itemsjs = require('itemsjs')(data , {
+var itemsjs = require('itemsjs')(data, {
   sortings: {
-    name_asc: {
+    title_asc: {
       field: 'title',
+      order: 'asc'
+    },
+    creator_asc: {
+      field: 'date',
       order: 'asc'
     }
   },
   aggregations: {
     publisher: {
       title: 'publisher',
+      size: 10
+    },
+    type: {
+      title: 'type',
       size: 10
     },
     language: {
@@ -26,23 +33,30 @@ var itemsjs = require('itemsjs')(data , {
       size: 10
     }
   },
-  searchableFields: ['title', 'description', 'date', 'creator']
+  searchableFields: ['title', 'description', 'date', 'creator', 'identifier', 'type']
 });
 
 exports.searchItem = function(request) {
-  console.log(request.query.q)
+  var filters = {};
+
+  ['creator', 'date', 'publisher', 'language', 'type'].forEach(function(v) {
+    filters[v] = request.query[v];
+  })
+
   return itemsjs.search({
-    per_page: 20,
-    sort: 'name_asc',
+    per_page: 10,
+    page: request.query.start,
+    sort: (request.query.q !== "") ? 'title_asc' : 'creator_asc',
     // full text search
     query: request.query.q,
+    filters: filters
   })
 }
 
 exports.topItem = function(request) {
   return itemsjs.aggregation({
     per_page: 1,
-    sort: 'name_asc',
+    sort: (request.query.q !== "") ? 'name_asc' : 'creator_asc',
     // full text search
     query: request.query.q,
   })

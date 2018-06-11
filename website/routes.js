@@ -1,4 +1,3 @@
-var queries = require('./queries.js');
 var utils = require('./utils.js');
 var config = require('./config.js');
 
@@ -8,17 +7,15 @@ module.exports = function(app) {
     res.sendFile(__dirname + '/public/views/index.html');
   });
 
-  app.get('/searchAgent', function(request, response) {
-    queries.launchESSearch(request.param('q'), request.param('start'), INDEX_ADDRESS, function(res) {
-      response.send(res);
-    });
+  app.get('/book/:id', function(req, res) {
+    res.sendFile(__dirname + '/public/views/book.html');
   });
 
   app.get('/search', function(request, response) {
     response.send(utils.searchItem(request))
   });
 
-  app.get('/book', function(req, res) {
-      res.redirect("https://archive.org/stream/" + query.id);
-
+  /*app.get('/book/:id', function(req, res) {
+      res.redirect("https://archive.org/stream/" + req.params.id);
+  });*/
 }

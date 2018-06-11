@@ -13,53 +13,43 @@ var getUrlParameter = function getUrlParameter(sParam) {
   }
 };
 
-//Clean import without decimals
-var cleanImporto = function cleanImporto(x) {
-  x = parseInt(x);
-  return x.toLocaleString('it', {
-    minimumFractionDigits: 0
-  });
-};
-
-function formatter(value) {
-  return cleanImporto(value).replace(/\B(?=(?:\d{3})+(?!\d))/g, '.');
-}
-
-function getTextQuery(value) {
-  return value.replaceAll(" AND ", " ");
-}
 
 function beautyFilter(value) {
-  return value.replace("author_ss=", "Autore: ")
-    .replace("date_s=", "Data: ")
-    .replace("language_s=", "Lingua: ")
-    .replace("biblio_ss=*", "Biblioteca: ");
-}
-
-function agentName(str) {
-  return str.split('###');
-
+  return value.replace("creator=", "Autore: ")
+    .replace("date=", "Data: ")
+    .replace("language=", "Lingua: ")
+    .replace("type=", "Tipologia: ")
 }
 
 var type = getUrlParameter("type");
-var params = decodeURIComponent(window.location.search).replace(/&type[^&]+/, "").split('&');
-var luceneQuery = getUrlParameter("q");
+var params = decodeURIComponent(window.location.search).split('&');
+var query = getUrlParameter("q");
 
 var buttonFilter = function(url, title) {
-  return '<a class="rect-btn nodeca rdf" style="cursor:pointer; margin-right:10px; font-size:12px; height:30px; line-height:30px;" href="' + url + '">' + title + ' ✖</a>';
+  return '<a class="rect-btn nodeca rdf" style="cursor:pointer; margin-right:10px; font-size:16px; height:30px; line-height:30px; border-bottom:solid 1px;" href="' + url + '">' + title + ' ✖</a>';
 }
 
-for (var p = 2; p < params.length; p++) {
-  luceneQuery += " AND " + params[p].replace("=", ":");
+for (var p = 1; p < params.length; p++) {
+  query += "&" + params[p];
 }
 
-$.getJSON("/search?q=" + luceneQuery, function(resData) {
-  console.log(resData);
+if (params[0] === "") {
+  document.location.href = "/?q=&start=1"
+}
+
+$.getJSON("/search?q=" + query, function(resData) {
   var obj = {
     instances: resData.data.items,
     facetsAuthArray: resData.data.aggregations.creator.buckets,
     facetsDataArray: resData.data.aggregations.date.buckets,
+    facetsTypeArray: resData.data.aggregations.type.buckets,
     facetsLinguaArray: resData.data.aggregations.language.buckets,
+  }
+
+  if (decodeURIComponent(window.location.search.substring(1)).split('&').indexOf('q=') > -1) {
+    obj.hasSearch = false;
+  } else {
+    obj.hasSearch = true;
   }
 
   obj.currentQuery = decodeURIComponent(window.location.search).replace("?q=", "");
@@ -68,10 +58,23 @@ $.getJSON("/search?q=" + luceneQuery, function(resData) {
     obj.instances[i].title = obj.instances[i].title;
     obj.instances[i].author = obj.instances[i].creator;
     obj.instances[i].date = obj.instances[i].date;
+    obj.instances[i].type = obj.instances[i].type;
     obj.instances[i].identifier = obj.instances[i].identifier;
   }
-  console.log(obj)
+
+  obj.facetsType = [];
+  for (var i = 0; i < obj.facetsTypeArray.length; i++) {
+    var fa = {};
+    fa.type = obj.facetsTypeArray[i].key;
+    fa.count = obj.facetsTypeArray[i].doc_count;
+    if (fa.count == 0) {
+      break;
+    }
+    obj.facetsType.push(fa);
+  }
+
   obj.facetsAuth = [];
+
   for (var i = 0; i < obj.facetsAuthArray.length; i++) {
     var fa = {};
     fa.title = obj.facetsAuthArray[i].key;
@@ -81,16 +84,20 @@ $.getJSON("/search?q=" + luceneQuery, function(resData) {
     }
     obj.facetsAuth.push(fa);
   }
+
   obj.facetsData = [];
   for (var i = 0; i < obj.facetsDataArray.length; i++) {
-    var fa = {};
-    fa.title = obj.facetsDataArray[i].key;
-    fa.count = obj.facetsDataArray[i].doc_count;
-    if (fa.count == 0) {
-      break;
+    if (obj.facetsDataArray[i].key !== '9999' && obj.facetsDataArray[i].key !== "    ") {
+      var fa = {};
+      fa.title = obj.facetsDataArray[i].key;
+      fa.count = obj.facetsDataArray[i].doc_count;
+      if (fa.count == 0) {
+        break;
+      }
+      obj.facetsData.push(fa);
     }
-    obj.facetsData.push(fa);
   }
+
   obj.facetsLingua = [];
   for (var i = 0; i < obj.facetsLinguaArray.length; i++) {
     var fa = {};
@@ -104,55 +111,74 @@ $.getJSON("/search?q=" + luceneQuery, function(resData) {
 
 
   $("#result").load("/views/template/ricerca-full-optional.html", function(res, status, xhr) {
-    var template = document.getElementById('resultTemplate').innerHTML;
+    var template = document.getElementById('wok-main-panel-content').innerHTML;
     var output = Mustache.render(template, obj);
     $("#result").html(output);
-    $('#search').val(getTextQuery(getUrlParameter("q")))
+    $('#search').val(getUrlParameter("q"))
 
-    for (var p = 2; p < params.length; p++) {
-      $("#active-filters").append(buttonFilter("/ricerca?q=" + obj.currentQuery.replace("&" + params[p], "") + " ", beautyFilter(params[p])))
+    for (var p = 1; p < params.length; p++) {
+      if (!params[p].includes('start=')) {
+        $("#active-filters").append(buttonFilter("/?q=" + obj.currentQuery.replace("&" + params[p], "") + " ", beautyFilter(params[p])))
+      }
     }
 
-    var num = 10;
+    var num = resData.pagination.total;
     var pages = Math.ceil(parseInt(num) / 10);
-    var currentPage = parseInt(getUrlParameter("start"));
-/*
-    if (currentPage > 1) {
-      $("#results-number").append("Pagina " + currentPage + " di ").append(formatter(num) + " risultati");
-    } else {
-      $("#results-number").append(formatter(num) + " risultati");
+    var currentPage = parseInt(getUrlParameter("start")) || 1;
+
+    $('#results-number').append((num || 0) + " risultati");
+
+    var paginationObj = {
+      totalPages: pages,
+      visiblePages: 5,
+      startPage: currentPage,
+      initiateStartPageClick: false,
+      first: 'Inizio',
+      prev: '',
+      next: '',
+      last: 'Fine',
+      onPageClick: function(event, page) {
+        if (obj.currentQuery.includes('&start=')) {
+          document.location.href = "/?q=" + obj.currentQuery.replace(/&start=[^&]+/, "&start=" + page)
+        } else {
+          document.location.href = "/?q=" + (obj.currentQuery || "") + "&start=" + page;
+        }
+      }
     }
 
-    //Draw pagination
-    $('.pagination-buttons').bootpag({
-      total: pages,
-      page: currentPage,
-      maxVisible: 5,
-      leaps: true,
-      firstLastUse: false,
-      wrapClass: 'pagination',
-      activeClass: 'active',
-      disabledClass: 'disabled-pag',
-      nextClass: 'next',
-      prevClass: 'prev',
-      lastClass: 'last',
-      firstClass: 'first'
-    });
-*/
-    //N.B. do NOT use bootpag on event because is bugged with double ajax call!!
-    $('.disabled-pag').hide();
-    $('ul.pagination.bootpag li').click(function(e) {
-      var num = $(this).attr('data-lp');
-      if (e.target.innerText === "»") {
-        num = 1 + currentPage;
-      }
-      if (e.target.innerText === "«") {
-        num = -1 + currentPage;
-      }
+    $('#pagination-demo').twbsPagination(paginationObj);
 
-      document.location.href = "/ricerca?q=" + obj.currentQuery.replace(/&start=[^&]+/, "&start=" + num)
+    $('#sync-pagination-demo').twbsPagination(paginationObj);
 
-      return false;
-    });
   });
 });
+
+$(document).on("keypress", "#search", function(e) {
+  if (e.which == 13) {
+    e.preventDefault()
+    var searchField = $('#search').val();
+    var params = "";
+    var facets = ['creator', 'date', 'language']
+    for (var i = 0; i < facets.length; i++) {
+      params += (getUrlParameter(facets[i]) !== undefined) ? "&" + facets[i] + "=" + getUrlParameter(facets[i]) : "";
+      document.location.href = "/?q=" + searchField + params;
+    }
+  }
+});
+
+$(document).on("click", "#clearsearch", function(e) {
+    document.location.href = "/?q=&start=1";
+});
+
+
+$(document).on("click", ".arrow",  function(e) {
+    $('.mobile-arrow').toggleClass('active');
+    $('#main-menu').toggleClass('active')
+});
+
+console.log(getUrlParameter('q'))
+if (decodeURIComponent(window.location.search.substring(1)).split('&').indexOf('q=') > -1 ) {
+    console.log('remove')
+    $('#autoreFacet').remove();
+    $('#dataFacet').remove();
+}
