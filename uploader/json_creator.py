@@ -3,6 +3,7 @@
 import requests 
 import pandas as pd
 import os
+import json
 import xml.etree.ElementTree as ET
 import pandas as pd
 import time
@@ -18,19 +19,15 @@ if os.path.exists('./book.csv'):
 else:
     done = []
 
-basedir = "/media/davide/Volume/ASTO/"
+basedir = "/data/accademia/teca/storage/Asto/"
 namespace = '{http://www.iccu.sbn.it/metaAG1.pdf}'
 purl = '{http://purl.org/dc/elements/1.1/}'
-
+counter = 0
 data = []
 for directory in os.listdir(basedir):
     print directory
     for element in os.listdir(basedir + '/' + directory):
-        if ".xml" == element[-4:] and element.replace(".xml", "") not in done:
-            time.sleep(1)
-            #and 'TO01157391_TO0324_62137_000000' in element:
-            #print 'uploading'
-
+        if ".xml" == element[-4:] and element.replace(".xml", "") not in done and 'Lotto' in directory:
             bookObj = {}
             part_name = ""
 
@@ -39,8 +36,12 @@ for directory in os.listdir(basedir):
             tree = ET.parse(filename)
             root = tree.getroot()
             identifier = element.replace(".xml", "")
-            print "Creating pdf for " + identifier
-
+            bookObj['type'] = root.find('./' + namespace + 'bib').attrib['level']
+            if bookObj['type'] == 'm':
+                bookObj['type']  = 'Monografia'
+            if bookObj['type'] == 's':
+                bookObj['type']  = 'Periodico'
+            
             for child in root.find(namespace+'bib'):
 
                 if 'identifier' in child.tag:
@@ -70,37 +71,17 @@ for directory in os.listdir(basedir):
                 if part_name != "":
                     bookObj['title'] = bookObj['title'] + " " + part_name
 
-
+                
                 bookObj['mediatype'] = 'texts'
 
-            zip_exit_code = os.system('zip -r ' + identifier + '_images.zip ' + basedir + directory.replace(' ', '\ ') +  '/' + element.replace(".xml", "") + '/Archivio/*')
-            #sys.exit(0)
-            if zip_exit_code != 0:
-
-                print "ERROR in creating the pdf. Exit code is: " + str(convert_code)
-                sys.exit(convert_code)
-
-            print "Uploading"
-            #print bookObj
-           
-            code = -1 
-            try:
-                r = upload(bookObj['identifier'],files=identifier + '_images.zip', metadata=bookObj)
-                code = r[0].status_code
-            except:
-                print "Failed upload"
-            
-            print "Done with code " + str(code)
-            bookObj['resCode'] = code
-
-            #shutil.copytree(filename.replace(".xml","") + '/Internet/', filename.replace(".xml","") + /bookObj['identifier'])
-            #print bookObj['identifier']
-            #sys.exit(0)
+            counter = counter + 1
             data.append(bookObj)
-            thisbookdf = pd.DataFrame(data)
-            bookdf = bookdf.append(thisbookdf, ignore_index=True)
-            bookdf.to_csv('book.csv', index=False, encoding='utf-8')
 
+dump =  json.dumps(data, indent=4, sort_keys=True)            
+print counter
+
+with open('book.json', 'w') as f:
+    f.write(dump)
 
 """
 Per rimuovere la linea con il libro da ritentare
