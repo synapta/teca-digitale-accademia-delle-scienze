@@ -36,9 +36,9 @@ for directory in os.listdir(basedir):
                 except:
                     print "Failed request"
 
-            if r.text != '{}':
-                print("skipping " + element.replace(".xml", ""))
-            else:
+            #if r.text != '{}':
+            #    print("skipping " + element.replace(".xml", ""))
+            #else:
                 #and 'TO01157391_TO0324_62137_000000' in element:
                 #print 'uploading'
 
@@ -66,7 +66,6 @@ for directory in os.listdir(basedir):
                         code = r[0].status_code
                     except:
                         print "Failed upload"
-                        print r
 
                 print "Done with code " + str(code)
                 bookObj['resCode'] = code
