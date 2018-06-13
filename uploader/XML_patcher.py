@@ -1,12 +1,13 @@
-from timeout import timeout
-import internetarchive
 from internetarchive.session import ArchiveSession
 from internetarchive.search import Search
-from internetarchive import upload
 from internetarchive import get_item
+from internetarchive import upload
 import xml.etree.ElementTree as ET
-import os
+from timeout import TimeoutError
+from timeout import timeout
+import internetarchive
 import pandas as pd
+import os
 
 @timeout(10)
 def bookDL(bookID):
@@ -42,7 +43,8 @@ for result in search:
     while True:
         try:
             bookDL(id)
-        except Exception as ex:
+        except TimeoutError:
+            print("Timeout")
             continue
         break
 
@@ -77,8 +79,8 @@ for dir in os.listdir(basedir):
         while True:
             try:
                 res = bookUL(dir, file_path)
-            except Exception as ex:
-                print(ex)
+            except TimeoutError:
+                print("Timeout")
                 continue
             break
         code = res[0].status_code
@@ -87,4 +89,4 @@ for dir in os.listdir(basedir):
             with open("patched_files/uploaded_files.txt", "a") as f:
                 f.write(dir+"\n")
         else:
-            print("Upload failed with code", code)
+print("Upload failed with code", code)
