@@ -170,6 +170,15 @@ $(document).on("click", "#clearsearch", function(e) {
     document.location.href = "/?q=&start=1";
 });
 
+$(document).on("click", "#lente", function(e) {
+  var searchField = $('#search').val();
+  var params = "";
+  var facets = ['creator', 'date', 'language']
+  for (var i = 0; i < facets.length; i++) {
+    params += (getUrlParameter(facets[i]) !== undefined) ? "&" + facets[i] + "=" + getUrlParameter(facets[i]) : "";
+    document.location.href = "/?q=" + searchField + params;
+  }
+});
 
 $(document).on("click", ".arrow",  function(e) {
     $('.mobile-arrow').toggleClass('active');
