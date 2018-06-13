@@ -8,13 +8,12 @@ La lista dei libri si aggiornerà all'avvio e giornalmente a partire da questo s
 
 https://docs.google.com/spreadsheets/d/13u2k8_MVktUBamh-UZec3ylDnXQfQIp7HZT8AgB0MOU/edit#gid=715455760
 
-<<<<<<< HEAD
 
 # Uploading
 
 I file necessari si trovano nella cartella `./upload`.
-=======
+
 # Creazione e modifica dei libri su IA/OL
 
 [Vedi sezione uploader](https://github.com/synapta/teca-digitale-accademia-delle-scienze/tree/master/uploader)
->>>>>>> 7634a3489de8649a88dd65062d31913827260c51
+
