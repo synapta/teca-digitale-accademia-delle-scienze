@@ -14,6 +14,8 @@ def parseXML(file_path):
     tree = ET.parse(file_path)
     root = tree.getroot()
 
+    bookObj['identifier'] = os.path.basename(file_path).replace(".xml", "")
+
     bookObj['type'] = root.find('./' + namespace + 'bib').attrib['level']
     if bookObj['type'] == 'm':
         bookObj['type']  = 'Monografia'
@@ -21,8 +23,7 @@ def parseXML(file_path):
         bookObj['type']  = 'Periodico'
 
     for child in root.find(namespace+'bib'):
-        if 'identifier' in child.tag:
-            bookObj['identifier'] = os.path.basename(file_path).replace(".xml", "")
+
         if 'title' in child.tag:
             bookObj['title'] = child.text
         elif 'creator'in child.tag:
@@ -55,7 +56,7 @@ def parseXML(file_path):
                 toc["toc"].append({"nomenclature":stru_elem.find(namespace+'nomenclature').text,"start":start.get('sequence_number')})
 
     toc = toc["toc"]
-    print toc
+    #print toc
     OL_toc = ""
     if len(toc) > 0:
         for elem in toc:
@@ -73,5 +74,5 @@ def parseXML(file_path):
     if elem.find(namespace+'sequence_number').text == "1":
         fileobj = elem.find(namespace+'file')
         bookObj["cover_img"] = fileobj.attrib[w3cns+'href']
-    print bookObj
+    #print bookObj
     return bookObj
