@@ -6902,3 +6902,32 @@ footer {
     padding-left: 1em;
   }
 }
+
+p.card-date-type {
+  font-size:18px;
+  border-bottom:0.5em;
+}
+
+p.card-description {
+  display: block;
+  font-size:14px;
+  font-style: italic;
+  line-height:inherit;
+  margin-bottom:2em!important;
+}
+
+p.card-title {
+  font-size:22px!important;
+  line-height:1.3!important;
+}
+
+p.card-author {
+  display:block;
+  font-size:16px;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+p.card-identifier {
+  font-size:9px
+}

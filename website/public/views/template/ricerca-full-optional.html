@@ -76,10 +76,11 @@
             <div class="archive-div hidden-phone">
               <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
             </div>
-            <span class="card-title" style="font-size:18px; line-heigth:inherit">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</span> {{author}}
-            <p style=" font-size:14px"> {{date}}</p>
-            <p style=" font-size:14px"> {{type}}</p>
-            <p style=" font-size:10px"> {{identifier}}</p>
+            <p class="card-author">{{author}}</p>
+            <p class="card-title">{{title}} {{#collectionTitle}}({{collectionTitle}}){{/collectionTitle}}</p> 
+            <p class="card-description">{{description}}</p> 
+            <p class="card-date-type"> {{date}} {{type}}</p>
+            <p class="card-identifier"> {{identifier}}</p>
             <div class="archive-div hidden-desktop">
               <img class="archive-thumb" src="https://archive.org/services/img/{{identifier}}" />
             </div>
