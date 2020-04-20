@@ -6924,7 +6924,7 @@ p.card-title {
 p.card-author {
   display:block;
   font-size:16px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em!important;
   text-transform: uppercase;
 }
 
